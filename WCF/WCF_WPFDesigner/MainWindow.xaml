@@ -1,0 +1,6 @@
+﻿<Window x:Class="WCF_WpfDesigner.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:designer="clr-namespace:Stimulsoft.Report.WpfDesign;assembly=Stimulsoft.Report.WpfDesign"
+        Title="MainWindow" Width="1500" Height="900" Loaded="MainWindowLoaded">
+</Window>
