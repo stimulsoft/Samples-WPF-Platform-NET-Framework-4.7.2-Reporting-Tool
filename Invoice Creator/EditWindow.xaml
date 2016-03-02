@@ -1,0 +1,48 @@
+﻿<Window x:Class="InvoiceCreator.EditWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="EditWindow" Height="774" Width="482" KeyDown="Window_KeyDown" Icon="/InvoiceCreator;component/app.net.ico" ResizeMode="NoResize" Loaded="Window_Loaded" WindowStartupLocation="CenterScreen">
+    <Grid Height="740">
+        <TextBlock Height="23" HorizontalAlignment="Left" Margin="80,15,0,0" Name="textBlock1" Text="Invoice Date:" VerticalAlignment="Top" Width="75" />
+        <DatePicker HorizontalAlignment="Left" Margin="161,11,0,705" Name="datePickerInvoiceDate" Width="160" Height="23" />        
+        <TextBlock Height="23" HorizontalAlignment="Left" Margin="80,44,0,0" Name="textBlock2" Text="Number:" VerticalAlignment="Top" Width="75" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="161,41,0,0" Name="textBoxNumber" VerticalAlignment="Top" Width="160" />
+        <TextBlock Height="23" HorizontalAlignment="Left" Margin="80,73,0,0" Name="textBlock3" Text="Customer:" VerticalAlignment="Top" Width="75" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="161,70,0,0" Name="textBoxCustomer" VerticalAlignment="Top" Width="160" />
+        <GroupBox Header="Bill To" Height="209" HorizontalAlignment="Left" Margin="12,97,0,0" Name="groupBoxBillTo" VerticalAlignment="Top" Width="220">
+            <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                <TextBlock Height="23" HorizontalAlignment="Left" Margin="10,13,0,0" Name="textBlock4" Text="Name:" VerticalAlignment="Top" Width="65" />
+                <TextBox Height="23" HorizontalAlignment="Left" Margin="81,10,0,0" Name="textBoxBillToName" VerticalAlignment="Top" Width="121" />
+                <TextBlock Height="23" HorizontalAlignment="Left" Margin="10,42,0,0" Name="textBlock5" Text="Address:" VerticalAlignment="Top" Width="65" />
+                <TextBox Height="23" HorizontalAlignment="Left" Margin="81,39,0,0" Name="textBoxBillToAddress" VerticalAlignment="Top" Width="121" />
+                <TextBlock Height="23" HorizontalAlignment="Left" Margin="10,71,0,0" Name="textBlock6" Text="Address 2:" VerticalAlignment="Top" Width="65" />
+                <TextBox Height="23" HorizontalAlignment="Left" Margin="81,68,0,0" Name="textBoxBillToAddress2" VerticalAlignment="Top" Width="121" />
+                <TextBlock Height="23" HorizontalAlignment="Left" Margin="10,100,0,0" Name="textBlock7" Text="City:" VerticalAlignment="Top" Width="65" />
+                <TextBox Height="23" HorizontalAlignment="Left" Margin="81,97,0,0" Name="textBoxBillToCity" VerticalAlignment="Top" Width="121" />
+                <TextBlock Height="23" HorizontalAlignment="Left" Margin="10,129,0,0" Name="textBlock8" Text="State:" VerticalAlignment="Top" Width="65" />
+                <TextBox Height="23" HorizontalAlignment="Left" Margin="81,126,0,0" Name="textBoxBillToState" VerticalAlignment="Top" Width="121" />
+                <TextBlock Height="23" HorizontalAlignment="Left" Margin="10,158,0,0" Name="textBlock9" Text="ZipCode:" VerticalAlignment="Top" Width="65" />
+                <TextBox Height="23" HorizontalAlignment="Left" Margin="81,155,0,0" Name="textBoxBillToZipCode" VerticalAlignment="Top" Width="121" />
+            </Grid>
+        </GroupBox>
+        <GroupBox Header="Ship To" Height="209" HorizontalAlignment="Left" Margin="240,97,0,0" Name="groupBoxShipTo" VerticalAlignment="Top" Width="220">
+            <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                <TextBlock Height="23" HorizontalAlignment="Left" Margin="10,13,0,0" Name="textBlock10" Text="Name:" VerticalAlignment="Top" Width="65" />
+                <TextBox Height="23" HorizontalAlignment="Left" Margin="81,10,0,0" Name="textBoxShipToName" VerticalAlignment="Top" Width="121" />
+                <TextBlock Height="23" HorizontalAlignment="Left" Margin="10,42,0,0" Name="textBlock11" Text="Address:" VerticalAlignment="Top" Width="65" />
+                <TextBox Height="23" HorizontalAlignment="Left" Margin="81,39,0,0" Name="textBoxShipToAddress" VerticalAlignment="Top" Width="121" />
+                <TextBlock Height="23" HorizontalAlignment="Left" Margin="10,71,0,0" Name="textBlock12" Text="Address 2:" VerticalAlignment="Top" Width="65" />
+                <TextBox Height="23" HorizontalAlignment="Left" Margin="81,68,0,0" Name="textBoxShipToAddress2" VerticalAlignment="Top" Width="121" />
+                <TextBlock Height="23" HorizontalAlignment="Left" Margin="10,100,0,0" Name="textBlock13" Text="City:" VerticalAlignment="Top" Width="65" />
+                <TextBox Height="23" HorizontalAlignment="Left" Margin="81,97,0,0" Name="textBoxShipToCity" VerticalAlignment="Top" Width="121" />
+                <TextBlock Height="23" HorizontalAlignment="Left" Margin="10,129,0,0" Name="textBlock14" Text="State:" VerticalAlignment="Top" Width="65" />
+                <TextBox Height="23" HorizontalAlignment="Left" Margin="81,126,0,0" Name="textBoxShipToState" VerticalAlignment="Top" Width="121" />
+                <TextBlock Height="23" HorizontalAlignment="Left" Margin="10,158,0,0" Name="textBlock15" Text="ZipCode:" VerticalAlignment="Top" Width="65" />
+                <TextBox Height="23" HorizontalAlignment="Left" Margin="81,155,0,0" Name="textBoxShipToZipCode" VerticalAlignment="Top" Width="121" />
+            </Grid>
+        </GroupBox>
+        <DataGrid Height="397" HorizontalAlignment="Left" Margin="12,310,0,0" Name="dataGridProducts" VerticalAlignment="Top" Width="448" ItemsSource="{Binding}" HeadersVisibility="Column" />
+        <Button Content="Save" Height="23" HorizontalAlignment="Left" Margin="256,712,0,0" Name="buttonSave" VerticalAlignment="Top" Width="100" Click="buttonSave_Click" />        
+        <Button Content="Cancel" Height="23" HorizontalAlignment="Left" Margin="360,712,0,0" Name="buttonCancel" VerticalAlignment="Top" Width="100" Click="buttonCancel_Click" />
+    </Grid>
+</Window>

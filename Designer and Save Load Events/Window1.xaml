@@ -1,0 +1,9 @@
+﻿<Window x:Class="WpfDesigner_SaveLoad.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:wpfDesigner="clr-namespace:Stimulsoft.Report.WpfDesign;assembly=Stimulsoft.Report.WpfDesign"
+    Title="Reports Designer and Save Load Events" Height="600" Width="800" WindowStartupLocation="CenterScreen" Icon="/DesignerSaveLoad;component/app.net.ico">
+    <Grid>
+        <wpfDesigner:StiWpfDesignerControl x:Name="designerControl1"/>
+    </Grid>
+</Window>

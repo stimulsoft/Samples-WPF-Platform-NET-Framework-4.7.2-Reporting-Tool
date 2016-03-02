@@ -1,0 +1,33 @@
+﻿<Window x:Class="Export.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Export Reports" SizeToContent="WidthAndHeight" 
+    WindowStartupLocation="CenterScreen" Icon="app.net.ico" ResizeMode="NoResize">
+    <StackPanel Orientation="Vertical">
+        <StackPanel Orientation="Horizontal" Margin="4">
+            <GroupBox Margin="4" Header="Export Type" MinWidth="120">
+                <StackPanel Orientation="Vertical">
+                    <RadioButton Margin="4" Name="rbPdf" IsChecked="True">Pdf</RadioButton>
+                    <RadioButton Margin="4" Name="rbHtml">Html</RadioButton>
+                    <RadioButton Margin="4" Name="rbXls">Xls</RadioButton>
+                    <RadioButton Margin="4" Name="rbTxt">Txt</RadioButton>
+                    <RadioButton Margin="4" Name="rbRtf">Rtf</RadioButton>
+                </StackPanel>
+            </GroupBox>
+            <GroupBox Margin="4" Header="Reports" MinWidth="120">
+                <ListBox Margin="4" Name="lbReports">
+                    <ListBoxItem>SimpleList</ListBoxItem>
+                    <ListBoxItem>SimpleGroup</ListBoxItem>
+                    <ListBoxItem>Master-Detail</ListBoxItem>
+                    <ListBoxItem>Anchors</ListBoxItem>
+                    <ListBoxItem>MultiColumnList</ListBoxItem>
+                </ListBox>
+            </GroupBox>
+        </StackPanel>
+        <DockPanel LastChildFill="false" Margin="4">
+            <Button Name="buttonClose" Width="80" DockPanel.Dock="Right" Margin="4" Click="buttonClose_Click">Close</Button>            
+            <Button Name="buttonExport" Width="80" DockPanel.Dock="Right" Margin="4" Click="buttonExport_Click">Export</Button>
+            <Button Name="buttonPreview" Width="80" DockPanel.Dock="Right" Margin="4" Click="buttonPreview_Click">Preview</Button>            
+        </DockPanel>
+    </StackPanel>
+</Window>

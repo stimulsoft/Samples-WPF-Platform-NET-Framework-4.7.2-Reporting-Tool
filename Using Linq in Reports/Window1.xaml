@@ -1,0 +1,12 @@
+﻿<Window x:Class="Wpf_Linq.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Using Linq in Reports" SizeToContent="WidthAndHeight" WindowStartupLocation="CenterScreen" Icon="/UsingLinqInReports;component/app.net.ico" ResizeMode="NoResize">
+    <DockPanel LastChildFill="false" MinHeight="100">
+        <StackPanel Orientation="Horizontal" DockPanel.Dock="Bottom">
+            <Button MinWidth="100" Margin="4" Name="btPreview" Click="btPreview_Click">Preview</Button>
+            <Button MinWidth="100" Margin="4" Name="btDesign" Click="btDesign_Click">Design</Button>
+            <Button MinWidth="100" Margin="4" Name="btClose" Click="btClose_Click">Close</Button>
+        </StackPanel>
+    </DockPanel>
+</Window>

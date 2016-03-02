@@ -1,0 +1,36 @@
+﻿<Window x:Class="SqlParameters.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:viewer="clr-namespace:Stimulsoft.Report.Viewer;assembly=Stimulsoft.Report.Wpf"
+    Title="Reports with Sql Parameters"
+    WindowStartupLocation="CenterScreen" Icon="/ReportsWithSqlParameters;component/app.net.ico" ResizeMode="CanResize" WindowState="Maximized">
+    <DockPanel Margin="4" MinWidth="300" MinHeight="200" LastChildFill="True">
+        <DockPanel DockPanel.Dock="Bottom" LastChildFill="false">
+            <Button Name="buttonClose" DockPanel.Dock="Right" Width="80" Margin="4, 4, 10, 4" Click="buttonClose_Click">Close</Button>
+            <Button Name="buttonDesign" DockPanel.Dock="Right" Width="80" Margin="4" Click="buttonDesign_Click">Design</Button>
+        </DockPanel>
+        <DockPanel LastChildFill="True">
+            <ListBox Name="lbCountries" DockPanel.Dock="Left" Width="200" Margin="4" SelectionChanged="ListBox_SelectionChanged">
+                <ListBoxItem>Brazil</ListBoxItem>
+                <ListBoxItem>Canada</ListBoxItem>
+                <ListBoxItem>Denmark</ListBoxItem>
+                <ListBoxItem>Finland</ListBoxItem>
+                <ListBoxItem>France</ListBoxItem>
+                <ListBoxItem>Germany</ListBoxItem>
+                <ListBoxItem>Ireland</ListBoxItem>
+                <ListBoxItem>Italy</ListBoxItem>
+                <ListBoxItem>Mexico</ListBoxItem>
+                <ListBoxItem>Norway</ListBoxItem>
+                <ListBoxItem>Poland</ListBoxItem>
+                <ListBoxItem>Portugal</ListBoxItem>
+                <ListBoxItem>Spain</ListBoxItem>
+                <ListBoxItem>Sweden</ListBoxItem>
+                <ListBoxItem>Switzerland</ListBoxItem>
+                <ListBoxItem>UK</ListBoxItem>
+                <ListBoxItem>USA</ListBoxItem>
+                <ListBoxItem>Venezuela</ListBoxItem>
+            </ListBox>
+            <viewer:StiWpfViewerControl Name="stiPreviewControl1" ShowClose="False"></viewer:StiWpfViewerControl>
+        </DockPanel>
+    </DockPanel>
+</Window>

@@ -1,0 +1,8 @@
+﻿<Window x:Class="CustomComponent.Wpf.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Custom Component" Height="300" Width="300" WindowStartupLocation="CenterScreen" Icon="/CustomComponent;component/app.net.ico">
+    <Grid>
+        <Button Name="buttonRunDesigner" Click="buttonRunDesigner_Click" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="8" MinWidth="100">Run Designer</Button>
+    </Grid>
+</Window>
