@@ -1,1 +1,1 @@
-# Samples-WPF-CSharp
+# Samples WPF CSharp
