@@ -27,7 +27,6 @@ namespace CustomComponent.Wpf
 
             InitializeComponent();
             AddCustomComponent();
-
         }
 
         private static void AddCustomComponent()
@@ -51,8 +50,6 @@ namespace CustomComponent.Wpf
 
             StiConfig.Services.Add(new MyCustomComponent());
             StiConfig.Save();
-
-
         }
 
         private void buttonRunDesigner_Click(object sender, RoutedEventArgs e)

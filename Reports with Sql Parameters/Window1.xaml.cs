@@ -11,6 +11,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Stimulsoft.Report;
+using System.IO;
 
 namespace SqlParameters
 {
@@ -29,20 +30,16 @@ namespace SqlParameters
             StiOptions.Wpf.CurrentTheme = StiOptions.Wpf.Themes.Office2013Theme;
             Stimulsoft.Report.Wpf.StiThemesHelper.LoadTheme(this);
             InitializeComponent();
-
-            Microsoft.Win32.RegistryKey key = Microsoft.Win32.Registry.LocalMachine.OpenSubKey("SOFTWARE\\Stimulsoft\\Stimulsoft Reports");
-            bool is64Bit = IntPtr.Size == 8;
-            if (is64Bit) key = Microsoft.Win32.Registry.LocalMachine.OpenSubKey("SOFTWARE\\Wow6432Node\\Stimulsoft\\Stimulsoft Reports");
-            path = (string)key.GetValue("Bin") + "\\";
-
-            stiReport1.Load("..\\..\\StiReport1.mrt");
+            
+            stiReport1.Load("..\\StiReport1.mrt");
 
             stiReport1.Dictionary.DataStore.Clear();
 
+            string path = System.IO.Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
             System.Data.OleDb.OleDbConnection connection =
                 new System.Data.OleDb.OleDbConnection(
-                "Provider=Microsoft.Jet.OLEDB.4.0;User ID=Admin;Data Source=" + path + "Data\\Nwind.mdb");
-
+                "Provider=Microsoft.Jet.OLEDB.4.0;User ID=Admin;Data Source=" + path + "\\..\\..\\Data\\Nwind.mdb");
+            
             stiReport1.RegData("NorthWind", connection);
             stiReport1.Compile();
 

@@ -41,7 +41,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>bin\Debug\</OutputPath>
+    <OutputPath>bin\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -57,7 +57,7 @@
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
-      <Reference Include="Stimulsoft.Base">
+    <Reference Include="Stimulsoft.Base">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\bin\Stimulsoft.Base.dll</HintPath>
     </Reference>
@@ -132,12 +132,17 @@
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <None Include="Anchors.mrt" />
     <None Include="app.config" />
+    <None Include="Master-Detail.mrt" />
+    <None Include="MultiColumnList.mrt" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
     <AppDesigner Include="Properties\" />
+    <None Include="SimpleGroup.mrt" />
+    <None Include="SimpleList.mrt" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="app.net.ico" />

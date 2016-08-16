@@ -30,15 +30,14 @@ namespace Work_with_Components
 
         private void buttonDesign_Click(object sender, RoutedEventArgs e)
         {
-            stiReport1.Load("..\\..\\Work with Components.mrt");
+            stiReport1.Load("..\\Work with Components.mrt");
             stiReport1.DesignWithWpf();
         }
 
         private void buttonPreview_Click(object sender, RoutedEventArgs e)
         {
-            stiReport1.Load("..\\..\\Work with Components.mrt");
-            ((StiText)stiReport1.Pages["Page1"].Components["Text1"]).Text.Value =
-                textBox1.Text;
+            stiReport1.Load("..\\Work with Components.mrt");
+            ((StiText)stiReport1.Pages["Page1"].Components["Text1"]).Text.Value = textBox1.Text;
 
             stiReport1.ShowWithWpf();
         }

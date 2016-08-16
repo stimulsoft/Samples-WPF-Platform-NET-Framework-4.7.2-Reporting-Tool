@@ -30,13 +30,13 @@ namespace Variables
 
         private void buttonDesign_Click(object sender, RoutedEventArgs e)
         {
-            stiReport1.Load("..\\..\\Variables.mrt");
+            stiReport1.Load("..\\Variables.mrt");
             stiReport1.DesignWithWpf();
         }
 
         private void buttonPreview_Click(object sender, RoutedEventArgs e)
         {
-            stiReport1.Load("..\\..\\Variables.mrt");
+            stiReport1.Load("..\\Variables.mrt");
             stiReport1.Compile();
             //Set Variables
             stiReport1["Name"] = tbName.Text;

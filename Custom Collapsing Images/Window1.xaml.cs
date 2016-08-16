@@ -11,8 +11,6 @@ namespace CustomCollapsingImages
     /// </summary>
     public partial class Window1 : Window
     {
-        private string path = string.Empty;
-
         public Window1()
         {
             StiOptions.Wpf.CurrentTheme = StiOptions.Wpf.Themes.Office2013Theme;
@@ -24,23 +22,11 @@ namespace CustomCollapsingImages
             StiReport report = new StiReport();            
 
             DataSet ds = new DataSet();
-           
-
-            Microsoft.Win32.RegistryKey key = Microsoft.Win32.Registry.LocalMachine.OpenSubKey("SOFTWARE\\Stimulsoft\\Stimulsoft Reports");
-            bool is64Bit = IntPtr.Size == 8;
-            if (is64Bit) key = Microsoft.Win32.Registry.LocalMachine.OpenSubKey("SOFTWARE\\Wow6432Node\\Stimulsoft\\Stimulsoft Reports");
-            path = (string)key.GetValue("Bin");
-
-            string dataSetPath = path + "\\Data\\";
-            if (File.Exists(dataSetPath + "Demo.xsd")) ds.ReadXmlSchema(dataSetPath + "Demo.xsd");
-            else MessageBox.Show("File \"Demo.xsd\" not found");
-
-            if (File.Exists(dataSetPath + "Demo.xsd")) ds.ReadXml(dataSetPath + "Demo.xml");
-            else MessageBox.Show("File \"Demo.xml\" not found");
-
+            ds.ReadXmlSchema("..\\..\\Data\\Demo.xsd");
+            ds.ReadXml("..\\..\\Data\\Demo.xml");
             ds.DataSetName = "Demo";
 
-            report.Load(path + "Reports\\" + "DrillDownGroupWithCollapsing.mrt");
+            report.Load("..\\DrillDownGroupWithCollapsing.mrt");
             report.RegData(ds);
 
             report.Compile();

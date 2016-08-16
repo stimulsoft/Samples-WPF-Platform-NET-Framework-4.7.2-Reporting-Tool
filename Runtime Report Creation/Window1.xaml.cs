@@ -22,8 +22,6 @@ namespace RuntimeBuildReport
     /// </summary>
     public partial class Window1 : Window
     {
-        private string path = string.Empty;
-
         private System.Data.DataSet dataSet1 = new System.Data.DataSet();
 
         public Window1()
@@ -32,16 +30,8 @@ namespace RuntimeBuildReport
             Stimulsoft.Report.Wpf.StiThemesHelper.LoadTheme(this);
             InitializeComponent();
 
-            Microsoft.Win32.RegistryKey key = Microsoft.Win32.Registry.LocalMachine.OpenSubKey("SOFTWARE\\Stimulsoft\\Stimulsoft Reports");
-            bool is64Bit = IntPtr.Size == 8;
-            if (is64Bit) key = Microsoft.Win32.Registry.LocalMachine.OpenSubKey("SOFTWARE\\Wow6432Node\\Stimulsoft\\Stimulsoft Reports");
-            path = (string)key.GetValue("Bin") + "\\Data\\";
-
-            if (File.Exists(path + "Demo.xsd")) dataSet1.ReadXmlSchema(path + "Demo.xsd");
-            else MessageBox.Show("File \"Demo.xsd\" not found");
-
-            if (File.Exists(path + "Demo.xsd")) dataSet1.ReadXml(path + "Demo.xml");
-            else MessageBox.Show("File \"Demo.xml\" not found");
+            dataSet1.ReadXmlSchema("..\\..\\Data\\Demo.xsd");
+            dataSet1.ReadXml("..\\..\\Data\\Demo.xml");
 
             dataSet1.DataSetName = "Demo";
         }

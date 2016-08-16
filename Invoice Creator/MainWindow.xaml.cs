@@ -26,8 +26,8 @@ namespace InvoiceCreator
         #region Fields
 
         private DataSet dataSetInvoice = new DataSet("Invoice");
-        private string InvoicesPath = IOPath.Combine(System.AppDomain.CurrentDomain.BaseDirectory, "..\\..\\Invoices\\");
-        private string SchmemaPath = IOPath.Combine(System.AppDomain.CurrentDomain.BaseDirectory, "..\\..\\EmptyTemplate.xsd");
+        private string InvoicesPath = IOPath.Combine(System.AppDomain.CurrentDomain.BaseDirectory, "..\\Invoices\\");
+        private string SchmemaPath = IOPath.Combine(System.AppDomain.CurrentDomain.BaseDirectory, "..\\EmptyTemplate.xsd");
 
         #endregion
 

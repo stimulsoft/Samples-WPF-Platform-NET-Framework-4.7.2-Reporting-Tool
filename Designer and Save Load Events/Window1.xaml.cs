@@ -24,6 +24,7 @@ namespace WpfDesigner_SaveLoad
         {
             StiOptions.Wpf.CurrentTheme = StiOptions.Wpf.Themes.Office2013Theme;
             InitializeComponent();
+
             StiOptions.Engine.GlobalEvents.SavingReportInDesigner += new Stimulsoft.Report.Design.StiSavingObjectEventHandler(GlobalEvents_SavingReportInDesigner);
             StiOptions.Engine.GlobalEvents.LoadingReportInDesigner += new Stimulsoft.Report.Design.StiLoadingObjectEventHandler(GlobalEvents_LoadingReportInDesigner);
         }
@@ -33,7 +34,7 @@ namespace WpfDesigner_SaveLoad
             e.Processed = true;
 
             StiReport report = new StiReport();
-            report.Load("..\\..\\Reports\\SimpleList.mrt");
+            report.Load("..\\SimpleList.mrt");
             designerControl1.Report = report;
         }
 

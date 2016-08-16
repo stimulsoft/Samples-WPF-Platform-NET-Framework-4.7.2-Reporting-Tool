@@ -31,13 +31,8 @@ namespace Export
 
             lbReports.SelectedIndex = 0;
 
-            Microsoft.Win32.RegistryKey key = Microsoft.Win32.Registry.LocalMachine.OpenSubKey("SOFTWARE\\Stimulsoft\\Stimulsoft Reports");
-            bool is64Bit = IntPtr.Size == 8;
-            if (is64Bit) key = Microsoft.Win32.Registry.LocalMachine.OpenSubKey("SOFTWARE\\Wow6432Node\\Stimulsoft\\Stimulsoft Reports");
-            path = (string)key.GetValue("Bin") + "\\";
-
-            dataSet1.ReadXmlSchema(path + "Data\\Demo.xsd");
-            dataSet1.ReadXml(path + "Data\\Demo.xml");
+            dataSet1.ReadXmlSchema("..\\..\\Data\\Demo.xsd");
+            dataSet1.ReadXml("..\\..\\Data\\Demo.xml");
         }
 
         private void buttonPreview_Click(object sender, RoutedEventArgs e)
@@ -45,7 +40,7 @@ namespace Export
             StiReport report = new StiReport();
             report.RegData(dataSet1);
 
-            report.Load(path + "Reports\\" + ((ListBoxItem)lbReports.SelectedItem).Content as string + ".mrt");
+            report.Load("..\\" + ((ListBoxItem)lbReports.SelectedItem).Content as string + ".mrt");
             report.RenderWithWpf();
             report.ShowWithWpf(true);
         }
@@ -55,7 +50,7 @@ namespace Export
             StiReport report = new StiReport();
             report.RegData(dataSet1);
 
-            report.Load(path + "Reports\\" + ((ListBoxItem)lbReports.SelectedItem).Content as string + ".mrt");
+            report.Load("..\\" + ((ListBoxItem)lbReports.SelectedItem).Content as string + ".mrt");
             report.RenderWithWpf(false);
 
             string file = ((ListBoxItem)lbReports.SelectedItem).Content as string + ".";

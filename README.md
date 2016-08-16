@@ -30,3 +30,5 @@ These examples are applicable for Stimulsoft Reports.WPF, the reporting tool des
 You can try the demo [here](https://www.stimulsoft.com/en/products/reports-wpf-demo)
 
 Read more about Stimulsoft Reports.WPF at [www.stimulsoft.com](https://www.stimulsoft.com/en/products/reports-wpf)
+
+[Free Download](https://www.stimulsoft.com/en/downloads/reports-wpf)
