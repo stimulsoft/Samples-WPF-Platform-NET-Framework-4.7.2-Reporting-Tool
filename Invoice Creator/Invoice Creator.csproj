@@ -54,7 +54,7 @@
     </Reference>
     <Reference Include="Stimulsoft.Report.WpfDesign">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\bin\Stimulsoft.Report.WWpfDesignpf.dll</HintPath>
+      <HintPath>..\Bin\Stimulsoft.Report.WpfDesign.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />

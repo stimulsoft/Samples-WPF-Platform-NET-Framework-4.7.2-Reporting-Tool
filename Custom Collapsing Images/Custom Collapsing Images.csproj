@@ -65,6 +65,9 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\bin\Stimulsoft.Report.dll</HintPath>
     </Reference>
+    <Reference Include="Stimulsoft.Report.Check">
+      <HintPath>..\Bin\Stimulsoft.Report.Check.dll</HintPath>
+    </Reference>
     <Reference Include="Stimulsoft.Report.Helper">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\bin\Stimulsoft.Report.Helper.dll</HintPath>

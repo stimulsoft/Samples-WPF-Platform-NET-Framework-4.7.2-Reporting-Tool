@@ -44,7 +44,7 @@ namespace CustomComponent.Wpf
 							"Stimulsoft.Report.Dll",
 
 							#region Add reference to your assembly
-							"CustomComponent.Wpf.exe"
+							"CustomComponent.exe"
 							#endregion
 						};
 

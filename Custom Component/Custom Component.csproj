@@ -63,9 +63,15 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\bin\Stimulsoft.Base.dll</HintPath>
     </Reference>
+    <Reference Include="Stimulsoft.Editor.Wpf">
+      <HintPath>..\Bin\Stimulsoft.Editor.Wpf.dll</HintPath>
+    </Reference>
     <Reference Include="Stimulsoft.Report">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\bin\Stimulsoft.Report.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.Report.Check">
+      <HintPath>..\Bin\Stimulsoft.Report.Check.dll</HintPath>
     </Reference>
     <Reference Include="Stimulsoft.Report.Helper">
       <SpecificVersion>False</SpecificVersion>
