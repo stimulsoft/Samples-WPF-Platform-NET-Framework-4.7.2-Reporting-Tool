@@ -21,7 +21,6 @@ namespace SqlParameters
     public partial class Window1 : Window
     {
         private string path = string.Empty;
-
         //private string path = "D:\\";
         private StiReport stiReport1 = new StiReport();
 
