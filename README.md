@@ -33,6 +33,6 @@ Also you can install and run the [WPF Demo](https://www.stimulsoft.com/en/produc
 
 Read more about [Stimulsoft Reports.Wpf](https://www.stimulsoft.com/en/products/reports-wpf)
 
-[Free Download](https://www.stimulsoft.com/en/downloads/reports-wpf)
+[Free Download](https://www.stimulsoft.com/en/downloads)
 
 [NuGet](https://www.nuget.org/packages/Stimulsoft.Reports.Wpf)
