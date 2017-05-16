@@ -6,11 +6,8 @@
 This repository has some examples (Visual Studio Projects) each in different folders:
 * Custom Collapsing Images
 * Custom Component
-* Designer Settings
 * Designer and Save Load Events
 * Export Reports
-* Invoice Creator
-* Reports with Sql Parameters
 * Runtime Report Creation
 * Using Business Objects
 * Using Linq in Reports

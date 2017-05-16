@@ -1,13 +1,13 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.6
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Using Business Objects", "Using Business Objects\Using Business Objects.csproj", "{FE1592E8-1B56-4FB2-974D-268EC3D9D8E4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Export Reports", "Export Reports\Export Reports.csproj", "{17B7C7E1-5510-4C74-A03A-B4EDFA43A1DF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Runtime Report Creation", "Runtime Report Creation\Runtime Report Creation.csproj", "{AE49587A-E888-4798-8CDE-EDB408097943}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reports with Sql Parameters", "Reports with Sql Parameters\Reports with Sql Parameters.csproj", "{E1DFCFAE-0D52-4909-8C88-572C60A2AAFE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Using Report Variables", "Using Report Variables\Using Report Variables.csproj", "{B9ADAA65-060A-4F30-B7AA-69EBD7E60BB8}"
 EndProject
@@ -18,10 +18,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Using Linq in Reports", "Using Linq in Reports\Using Linq in Reports.csproj", "{FE3E1E18-F379-41D0-AACD-0B027AEACAF9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Custom Collapsing Images", "Custom Collapsing Images\Custom Collapsing Images.csproj", "{66036505-3F9E-4230-AECC-6B236D83C725}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Designer Settings", "Designer Settings\Designer Settings.csproj", "{8ADC07EF-F019-4590-A12C-ECABB3342BB7}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Invoice Creator", "Invoice Creator\Invoice Creator.csproj", "{FC15F759-14EC-46D0-ABC0-8E1791CB76F0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Custom Component", "Custom Component\Custom Component.csproj", "{E4D25F12-FD0D-49A5-966A-521658F20EF4}"
 EndProject
@@ -65,16 +61,6 @@ Global
 		{AE49587A-E888-4798-8CDE-EDB408097943}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{AE49587A-E888-4798-8CDE-EDB408097943}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{AE49587A-E888-4798-8CDE-EDB408097943}.Release|x86.ActiveCfg = Release|Any CPU
-		{E1DFCFAE-0D52-4909-8C88-572C60A2AAFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E1DFCFAE-0D52-4909-8C88-572C60A2AAFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E1DFCFAE-0D52-4909-8C88-572C60A2AAFE}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{E1DFCFAE-0D52-4909-8C88-572C60A2AAFE}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{E1DFCFAE-0D52-4909-8C88-572C60A2AAFE}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{E1DFCFAE-0D52-4909-8C88-572C60A2AAFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E1DFCFAE-0D52-4909-8C88-572C60A2AAFE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E1DFCFAE-0D52-4909-8C88-572C60A2AAFE}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{E1DFCFAE-0D52-4909-8C88-572C60A2AAFE}.Release|Mixed Platforms.Build.0 = Release|Any CPU
-		{E1DFCFAE-0D52-4909-8C88-572C60A2AAFE}.Release|x86.ActiveCfg = Release|Any CPU
 		{B9ADAA65-060A-4F30-B7AA-69EBD7E60BB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B9ADAA65-060A-4F30-B7AA-69EBD7E60BB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9ADAA65-060A-4F30-B7AA-69EBD7E60BB8}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
@@ -125,26 +111,6 @@ Global
 		{66036505-3F9E-4230-AECC-6B236D83C725}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{66036505-3F9E-4230-AECC-6B236D83C725}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{66036505-3F9E-4230-AECC-6B236D83C725}.Release|x86.ActiveCfg = Release|Any CPU
-		{8ADC07EF-F019-4590-A12C-ECABB3342BB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8ADC07EF-F019-4590-A12C-ECABB3342BB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8ADC07EF-F019-4590-A12C-ECABB3342BB7}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{8ADC07EF-F019-4590-A12C-ECABB3342BB7}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{8ADC07EF-F019-4590-A12C-ECABB3342BB7}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{8ADC07EF-F019-4590-A12C-ECABB3342BB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8ADC07EF-F019-4590-A12C-ECABB3342BB7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8ADC07EF-F019-4590-A12C-ECABB3342BB7}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{8ADC07EF-F019-4590-A12C-ECABB3342BB7}.Release|Mixed Platforms.Build.0 = Release|Any CPU
-		{8ADC07EF-F019-4590-A12C-ECABB3342BB7}.Release|x86.ActiveCfg = Release|Any CPU
-		{FC15F759-14EC-46D0-ABC0-8E1791CB76F0}.Debug|Any CPU.ActiveCfg = Debug|x86
-		{FC15F759-14EC-46D0-ABC0-8E1791CB76F0}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
-		{FC15F759-14EC-46D0-ABC0-8E1791CB76F0}.Debug|Mixed Platforms.Build.0 = Debug|x86
-		{FC15F759-14EC-46D0-ABC0-8E1791CB76F0}.Debug|x86.ActiveCfg = Debug|x86
-		{FC15F759-14EC-46D0-ABC0-8E1791CB76F0}.Debug|x86.Build.0 = Debug|x86
-		{FC15F759-14EC-46D0-ABC0-8E1791CB76F0}.Release|Any CPU.ActiveCfg = Release|x86
-		{FC15F759-14EC-46D0-ABC0-8E1791CB76F0}.Release|Mixed Platforms.ActiveCfg = Release|x86
-		{FC15F759-14EC-46D0-ABC0-8E1791CB76F0}.Release|Mixed Platforms.Build.0 = Release|x86
-		{FC15F759-14EC-46D0-ABC0-8E1791CB76F0}.Release|x86.ActiveCfg = Release|x86
-		{FC15F759-14EC-46D0-ABC0-8E1791CB76F0}.Release|x86.Build.0 = Release|x86
 		{E4D25F12-FD0D-49A5-966A-521658F20EF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E4D25F12-FD0D-49A5-966A-521658F20EF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E4D25F12-FD0D-49A5-966A-521658F20EF4}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
