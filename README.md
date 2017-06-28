@@ -33,3 +33,5 @@ Read more about [Stimulsoft Reports.Wpf](https://www.stimulsoft.com/en/products/
 [Free Download](https://www.stimulsoft.com/en/downloads)
 
 [NuGet](https://www.nuget.org/packages/Stimulsoft.Reports.Wpf)
+
+[License](LICENSE.md)
