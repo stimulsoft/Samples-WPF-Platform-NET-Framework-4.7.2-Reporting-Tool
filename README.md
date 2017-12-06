@@ -8,6 +8,7 @@ This repository has some examples (Visual Studio Projects) each in different fol
 * Custom Component
 * Designer and Save Load Events
 * Export Reports
+* Run Designer V2
 * Runtime Report Creation
 * Using Business Objects
 * Using Linq in Reports

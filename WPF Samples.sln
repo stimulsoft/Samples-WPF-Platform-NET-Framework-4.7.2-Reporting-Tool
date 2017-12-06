@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.6
+VisualStudioVersion = 15.0.27004.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Using Business Objects", "Using Business Objects\Using Business Objects.csproj", "{FE1592E8-1B56-4FB2-974D-268EC3D9D8E4}"
 EndProject
@@ -20,6 +20,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Custom Collapsing Images", "Custom Collapsing Images\Custom Collapsing Images.csproj", "{66036505-3F9E-4230-AECC-6B236D83C725}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Custom Component", "Custom Component\Custom Component.csproj", "{E4D25F12-FD0D-49A5-966A-521658F20EF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Run Designer V2", "Run Designer V2\Run Designer V2.csproj", "{630036AD-3F84-4AEF-AC19-37F754245A0B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -121,11 +123,24 @@ Global
 		{E4D25F12-FD0D-49A5-966A-521658F20EF4}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{E4D25F12-FD0D-49A5-966A-521658F20EF4}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{E4D25F12-FD0D-49A5-966A-521658F20EF4}.Release|x86.ActiveCfg = Release|Any CPU
+		{630036AD-3F84-4AEF-AC19-37F754245A0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{630036AD-3F84-4AEF-AC19-37F754245A0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{630036AD-3F84-4AEF-AC19-37F754245A0B}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{630036AD-3F84-4AEF-AC19-37F754245A0B}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{630036AD-3F84-4AEF-AC19-37F754245A0B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{630036AD-3F84-4AEF-AC19-37F754245A0B}.Debug|x86.Build.0 = Debug|Any CPU
+		{630036AD-3F84-4AEF-AC19-37F754245A0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{630036AD-3F84-4AEF-AC19-37F754245A0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{630036AD-3F84-4AEF-AC19-37F754245A0B}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{630036AD-3F84-4AEF-AC19-37F754245A0B}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{630036AD-3F84-4AEF-AC19-37F754245A0B}.Release|x86.ActiveCfg = Release|Any CPU
+		{630036AD-3F84-4AEF-AC19-37F754245A0B}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		VisualSVNWorkingCopyRoot = .
+		SolutionGuid = {4EF534B3-5526-4F4F-AE55-EE519525C15D}
 	EndGlobalSection
 EndGlobal
