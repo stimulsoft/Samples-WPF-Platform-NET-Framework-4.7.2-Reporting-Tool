@@ -1048,7 +1048,8 @@
     <SQLiteEdit>Edit SQLite Connection</SQLiteEdit>
     <SQLiteNew>New SQLite Connection</SQLiteNew>
     <SqlNew>New SQL Connection</SqlNew>
-    <TeradataEdit>Edit Teradata Connection</TeradataEdit>
+    <SelectData>Select Data</SelectData>
+	<TeradataEdit>Edit Teradata Connection</TeradataEdit>
     <TeradataNew>New Teradata Connection</TeradataNew>
     <UniDirectEdit>Edit Uni Direct Connection</UniDirectEdit>
     <UniDirectNew>New Uni Direct Connection</UniDirectNew>
@@ -2432,6 +2433,9 @@
     <YellowGreen>Yellow Green</YellowGreen>
   </PropertyColor>
   <PropertyEnum>
+    <StiDeltaTypeDifference>Difference</StiDeltaTypeDifference>
+    <StiDeltaTypePercentageDifference>Percentage Difference</StiDeltaTypePercentageDifference>
+    <StiDeltaTypePercentOfTarget>Percent of Target</StiDeltaTypePercentOfTarget>
     <StiGaugeTypeFullCircular>Full Circular</StiGaugeTypeFullCircular>
     <StiGaugeTypeHalfCircular>Half-Circular</StiGaugeTypeHalfCircular>
     <boolFalse>False</boolFalse>
@@ -4051,6 +4055,7 @@
     <Division>Division</Division>
     <Equal>Equal</Equal>
     <EquationShapes>Equation Shapes</EquationShapes>
+    <Flowchart>Flowchart</Flowchart>
     <FlowchartCard>Flowchart: Card</FlowchartCard>
     <FlowchartCollate>Flowchart: Collate</FlowchartCollate>
     <FlowchartDecision>Flowchart: Decision</FlowchartDecision>
