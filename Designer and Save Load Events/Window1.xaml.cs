@@ -22,6 +22,11 @@ namespace WpfDesigner_SaveLoad
     {
         public Window1()
         {
+            // How to Activate
+            //Stimulsoft.Base.StiLicense.Key = "6vJhGtLLLz2GNviWmUTrhSqnO...";
+            //Stimulsoft.Base.StiLicense.LoadFromFile("license.key");
+            //Stimulsoft.Base.StiLicense.LoadFromStream(stream);
+
             StiOptions.Wpf.CurrentTheme = StiOptions.Wpf.Themes.Office2013Theme;
             InitializeComponent();
 

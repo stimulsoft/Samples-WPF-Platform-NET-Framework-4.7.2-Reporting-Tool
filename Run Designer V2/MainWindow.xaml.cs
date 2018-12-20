@@ -24,6 +24,11 @@ namespace Run_Designer_V2
         public MainWindow()
         {
             InitializeComponent();
+
+            // How to Activate
+            //Stimulsoft.Base.StiLicense.Key = "6vJhGtLLLz2GNviWmUTrhSqnO...";
+            //Stimulsoft.Base.StiLicense.LoadFromFile("license.key");
+            //Stimulsoft.Base.StiLicense.LoadFromStream(stream);
         }
 
         private void buttonRunDesigner_Click(object sender, RoutedEventArgs e)

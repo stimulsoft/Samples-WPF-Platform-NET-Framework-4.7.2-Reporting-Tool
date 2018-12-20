@@ -13,6 +13,11 @@ namespace CustomCollapsingImages
     {
         public Window1()
         {
+            // How to Activate
+            //Stimulsoft.Base.StiLicense.Key = "6vJhGtLLLz2GNviWmUTrhSqnO...";
+            //Stimulsoft.Base.StiLicense.LoadFromFile("license.key");
+            //Stimulsoft.Base.StiLicense.LoadFromStream(stream);
+
             StiOptions.Wpf.CurrentTheme = StiOptions.Wpf.Themes.Office2013Theme;
             StiOptions.Wpf.Viewer.CollapsingImages.UseCustomCollapsingImages = true;
             StiOptions.Wpf.Viewer.CollapsingImages.CollapsedImagePath = "pack://application:,,,/CustomCollapsingImages;component/Images/Collapsed.png";
