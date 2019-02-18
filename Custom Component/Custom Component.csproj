@@ -60,67 +60,67 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="LibExcel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Reports.Engine.2019.1.1\lib\net40\LibExcel.dll</HintPath>
+      <HintPath>..\packages\Stimulsoft.Reports.Engine.2019.2.1\lib\net40\LibExcel.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Base, Version=2019.1.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Reports.Engine.2019.1.1\lib\net40\Stimulsoft.Base.dll</HintPath>
+    <Reference Include="Stimulsoft.Base, Version=2019.2.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Engine.2019.2.1\lib\net40\Stimulsoft.Base.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Data, Version=2019.1.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Reports.Engine.2019.1.1\lib\net40\Stimulsoft.Data.dll</HintPath>
+    <Reference Include="Stimulsoft.Data, Version=2019.2.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Engine.2019.2.1\lib\net40\Stimulsoft.Data.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Database.Wpf, Version=2019.1.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Reports.Wpf.2019.1.1\lib\net40\Stimulsoft.Database.Wpf.dll</HintPath>
+    <Reference Include="Stimulsoft.Database.Wpf, Version=2019.2.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Wpf.2019.2.1\lib\net40\Stimulsoft.Database.Wpf.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Editor.Wpf, Version=2019.1.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Reports.Wpf.2019.1.1\lib\net40\Stimulsoft.Editor.Wpf.dll</HintPath>
+    <Reference Include="Stimulsoft.Editor.Wpf, Version=2019.2.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Wpf.2019.2.1\lib\net40\Stimulsoft.Editor.Wpf.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Map, Version=2019.1.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Reports.Engine.2019.1.1\lib\net40\Stimulsoft.Map.dll</HintPath>
+    <Reference Include="Stimulsoft.Map, Version=2019.2.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Engine.2019.2.1\lib\net40\Stimulsoft.Map.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Report, Version=2019.1.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Reports.Engine.2019.1.1\lib\net40\Stimulsoft.Report.dll</HintPath>
+    <Reference Include="Stimulsoft.Report, Version=2019.2.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Engine.2019.2.1\lib\net40\Stimulsoft.Report.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Report.Check, Version=2019.1.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Reports.Engine.2019.1.1\lib\net40\Stimulsoft.Report.Check.dll</HintPath>
+    <Reference Include="Stimulsoft.Report.Check, Version=2019.2.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Engine.2019.2.1\lib\net40\Stimulsoft.Report.Check.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Report.Helper, Version=2019.1.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Reports.Engine.2019.1.1\lib\net40\Stimulsoft.Report.Helper.dll</HintPath>
+    <Reference Include="Stimulsoft.Report.Helper, Version=2019.2.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Engine.2019.2.1\lib\net40\Stimulsoft.Report.Helper.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Report.Wpf, Version=2019.1.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Reports.Wpf.2019.1.1\lib\net40\Stimulsoft.Report.Wpf.dll</HintPath>
+    <Reference Include="Stimulsoft.Report.Wpf, Version=2019.2.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Wpf.2019.2.1\lib\net40\Stimulsoft.Report.Wpf.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Report.Wpf.BlackTheme, Version=2019.1.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Reports.Wpf.2019.1.1\lib\net40\Stimulsoft.Report.Wpf.BlackTheme.dll</HintPath>
+    <Reference Include="Stimulsoft.Report.Wpf.BlackTheme, Version=2019.2.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Wpf.2019.2.1\lib\net40\Stimulsoft.Report.Wpf.BlackTheme.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Report.Wpf.Office2003BlueTheme, Version=2019.1.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Reports.Wpf.2019.1.1\lib\net40\Stimulsoft.Report.Wpf.Office2003BlueTheme.dll</HintPath>
+    <Reference Include="Stimulsoft.Report.Wpf.Office2003BlueTheme, Version=2019.2.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Wpf.2019.2.1\lib\net40\Stimulsoft.Report.Wpf.Office2003BlueTheme.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Report.Wpf.Office2003OliveGreenTheme, Version=2019.1.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Reports.Wpf.2019.1.1\lib\net40\Stimulsoft.Report.Wpf.Office2003OliveGreenTheme.dll</HintPath>
+    <Reference Include="Stimulsoft.Report.Wpf.Office2003OliveGreenTheme, Version=2019.2.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Wpf.2019.2.1\lib\net40\Stimulsoft.Report.Wpf.Office2003OliveGreenTheme.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Report.Wpf.Office2003SilverTheme, Version=2019.1.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Reports.Wpf.2019.1.1\lib\net40\Stimulsoft.Report.Wpf.Office2003SilverTheme.dll</HintPath>
+    <Reference Include="Stimulsoft.Report.Wpf.Office2003SilverTheme, Version=2019.2.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Wpf.2019.2.1\lib\net40\Stimulsoft.Report.Wpf.Office2003SilverTheme.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Report.Wpf.Office2007BlackTheme, Version=2019.1.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Reports.Wpf.2019.1.1\lib\net40\Stimulsoft.Report.Wpf.Office2007BlackTheme.dll</HintPath>
+    <Reference Include="Stimulsoft.Report.Wpf.Office2007BlackTheme, Version=2019.2.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Wpf.2019.2.1\lib\net40\Stimulsoft.Report.Wpf.Office2007BlackTheme.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Report.Wpf.Office2007BlueTheme, Version=2019.1.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Reports.Wpf.2019.1.1\lib\net40\Stimulsoft.Report.Wpf.Office2007BlueTheme.dll</HintPath>
+    <Reference Include="Stimulsoft.Report.Wpf.Office2007BlueTheme, Version=2019.2.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Wpf.2019.2.1\lib\net40\Stimulsoft.Report.Wpf.Office2007BlueTheme.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Report.Wpf.Office2007SilverTheme, Version=2019.1.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Reports.Wpf.2019.1.1\lib\net40\Stimulsoft.Report.Wpf.Office2007SilverTheme.dll</HintPath>
+    <Reference Include="Stimulsoft.Report.Wpf.Office2007SilverTheme, Version=2019.2.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Wpf.2019.2.1\lib\net40\Stimulsoft.Report.Wpf.Office2007SilverTheme.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Report.Wpf.Office2010BlueTheme, Version=2019.1.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Reports.Wpf.2019.1.1\lib\net40\Stimulsoft.Report.Wpf.Office2010BlueTheme.dll</HintPath>
+    <Reference Include="Stimulsoft.Report.Wpf.Office2010BlueTheme, Version=2019.2.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Wpf.2019.2.1\lib\net40\Stimulsoft.Report.Wpf.Office2010BlueTheme.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Report.Wpf.Office2010WhiteTheme, Version=2019.1.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Reports.Wpf.2019.1.1\lib\net40\Stimulsoft.Report.Wpf.Office2010WhiteTheme.dll</HintPath>
+    <Reference Include="Stimulsoft.Report.Wpf.Office2010WhiteTheme, Version=2019.2.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Wpf.2019.2.1\lib\net40\Stimulsoft.Report.Wpf.Office2010WhiteTheme.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Report.WpfDesign, Version=2019.1.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Reports.Wpf.2019.1.1\lib\net40\Stimulsoft.Report.WpfDesign.dll</HintPath>
+    <Reference Include="Stimulsoft.Report.WpfDesign, Version=2019.2.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Wpf.2019.2.1\lib\net40\Stimulsoft.Report.WpfDesign.dll</HintPath>
     </Reference>
     <Reference Include="Svg, Version=2.2.1.39233, Culture=neutral, PublicKeyToken=12a0bac221edeae2, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Reports.Engine.2019.1.1\lib\net40\Svg.dll</HintPath>
+      <HintPath>..\packages\Stimulsoft.Reports.Engine.2019.2.1\lib\net40\Svg.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core">
