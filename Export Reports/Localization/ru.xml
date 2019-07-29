@@ -446,7 +446,7 @@
     <RefreshList>Обновить список</RefreshList>
     <ReportDocumentFormatNotRecognized>Формат файла '{0}' не распознан как формат построенного отчета!</ReportDocumentFormatNotRecognized>
     <ReportTemplateFormatNotRecognized>Формат файла '{0}' не распознан как формат шаблона отчета!</ReportTemplateFormatNotRecognized>
-    <RequestChangesWhenSavingToCloud>Показывать окно изменений при сохранении в облако</RequestChangesWhenSavingToCloud>
+    <RequestChangesWhenSavingToCloud>Показывать окно изменений при сохранении в Stimulsoft Cloud</RequestChangesWhenSavingToCloud>
     <RibbonButtonAddRole>Добавить роль</RibbonButtonAddRole>
     <RibbonButtonAddUser>Добавить пользователя</RibbonButtonAddUser>
     <RibbonButtonAddWorkspace>Добавить рабочее пространство</RibbonButtonAddWorkspace>
@@ -458,7 +458,7 @@
     <SaveAccountSettings>Запомнить настройки аккаунта</SaveAccountSettings>
     <SaveAsType>Сохранить как тип</SaveAsType>
     <SaveFile>Сохранить файл</SaveFile>
-    <SavingToStimulsoftCloudPleaseWait>Отчет сохраняется в облако. Пожалуйста, ожидайте!</SavingToStimulsoftCloudPleaseWait>
+    <SavingToStimulsoftCloudPleaseWait>Отчет сохраняется в Stimulsoft Cloud. Пожалуйста, ожидайте!</SavingToStimulsoftCloudPleaseWait>
     <ShareWindowTitleNew>Доступ</ShareWindowTitleNew>
     <ShowAllFiles>Показать все файлы</ShowAllFiles>
     <ShowNotificationMessages>Показывать уведомления</ShowNotificationMessages>
@@ -467,6 +467,7 @@
     <TabItemQRCode>QR код</TabItemQRCode>
     <TabItemShare>Ссылка</TabItemShare>
     <TermsOfUse>правилами</TermsOfUse>
+	<TermsOfService>Условия использования Stimulsoft</TermsOfService>
     <TextActivated>Активирована</TextActivated>
     <TextActivationDate>Дата активации</TextActivationDate>
     <TextDelete>Удаление</TextDelete>
@@ -646,6 +647,7 @@
     <DrillUp>Детализация на предыдущем уровне</DrillUp>
     <DuplicateField>Создать копию поля</DuplicateField>
     <EditExpression>Изменить выражение</EditExpression>
+    <EditField>Изменить поле</EditField>
     <EmptyDashboardFooter>Перетащите компонент из Инструментария или данные из Словаря данных</EmptyDashboardFooter>
     <EmptyDashboardHeader>Пустая панель индикаторов</EmptyDashboardHeader>
     <FieldInteractions>Взаимодействие полей</FieldInteractions>
@@ -777,7 +779,8 @@
     <TextNotFound>Указанный текст не найден. Текст: {0}</TextNotFound>
   </DesignerFx>
   <Desktop>
-    <ButtonAddCloud>Добавить папку из облака</ButtonAddCloud>
+    <WhoAreYou>Кто Вы?</WhoAreYou>
+    <ButtonAddCloud>Добавить папку из Stimulsoft Cloud</ButtonAddCloud>
     <ButtonAddFolder>Добавить папку</ButtonAddFolder>
     <ButtonCreateDashboard>Создать панель индикаторов</ButtonCreateDashboard>
     <ButtonCreateReport>Создать отчет</ButtonCreateReport>
@@ -2329,6 +2332,7 @@
     <NotificationValueIsNotCorrect>Значение некорректно для этого типа {0}</NotificationValueIsNotCorrect>
     <OutOfRange>Выход за пределы диапазона ("{0}")!</OutOfRange>
     <ParsingCommandException>Исключение обработки команды в указанном xml: {0}</ParsingCommandException>
+    <PleaseLogin>Пожалуйста, войдите в систему, используя свои учетные данные Stimulsoft, или зарегистрируйте новую учетную запись перед публикацией отчета.</PleaseLogin>
     <QuotaAvailableSpaceAmountExceeded>Доступное пространство исчерпано!</QuotaAvailableSpaceAmountExceeded>
     <QuotaMaximumBandwidthExceeded>Достигнут лимит по трафику.</QuotaMaximumBandwidthExceeded>
     <QuotaMaximumComputingCyclesCountExceeded>Лимит на циклы вычислений превышен.</QuotaMaximumComputingCyclesCountExceeded>
@@ -2382,6 +2386,7 @@
     <Download>Скачать</Download>
     <DownloadAll>Скачать все</DownloadAll>
     <DownloadAndInstall>Скачать и Установить</DownloadAndInstall>
+    <DownloadDataAdapter>Скачать адаптер данных</DownloadDataAdapter>
     <Downloads>Скачиваний:</Downloads>
     <IAccept>Я Согласен</IAccept>
     <IDecline>Я Отказываюсь</IDecline>
@@ -2848,6 +2853,9 @@
     <StiDateTimeTypeDate>Дата</StiDateTimeTypeDate>
     <StiDateTimeTypeDateAndTime>Дата и время</StiDateTimeTypeDateAndTime>
     <StiDateTimeTypeTime>Время</StiDateTimeTypeTime>
+    <StiDesignerSpecificationAuto>Определять автоматически</StiDesignerSpecificationAuto>
+    <StiDesignerSpecificationBICreator>Я редактор BI</StiDesignerSpecificationBICreator>
+    <StiDesignerSpecificationDeveloper>Я разработчик</StiDesignerSpecificationDeveloper>
     <StiDisplayNameTypeFull>Полное</StiDisplayNameTypeFull>
     <StiDisplayNameTypeNone>Нет</StiDisplayNameTypeNone>
     <StiDisplayNameTypeShort>Короткое</StiDisplayNameTypeShort>

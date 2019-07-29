@@ -446,7 +446,7 @@
     <RefreshList>Refresh List</RefreshList>
     <ReportDocumentFormatNotRecognized>Format of '{0}' item is not recognized as rendered report format!</ReportDocumentFormatNotRecognized>
     <ReportTemplateFormatNotRecognized>Format of '{0}' item is not recognized as report template format!</ReportTemplateFormatNotRecognized>
-    <RequestChangesWhenSavingToCloud>Request Changes when Saving to Cloud</RequestChangesWhenSavingToCloud>
+    <RequestChangesWhenSavingToCloud>Request Changes when Saving to Stimulsoft Cloud</RequestChangesWhenSavingToCloud>
     <RibbonButtonAddRole>Add Role</RibbonButtonAddRole>
     <RibbonButtonAddUser>Add User</RibbonButtonAddUser>
     <RibbonButtonAddWorkspace>Add Workspace</RibbonButtonAddWorkspace>
@@ -550,10 +550,11 @@
     <WizardXmlDescription>Create a report with XML data.</WizardXmlDescription>
   </Cloud>
   <Desktop>
+    <WhoAreYou>Who Are you?</WhoAreYou>
     <ButtonCreateReport>Create Report</ButtonCreateReport>
     <ButtonCreateDashboard>Create Dashboard</ButtonCreateDashboard>
     <ButtonAddFolder>Add Folder</ButtonAddFolder>
-    <ButtonAddCloud>Add Cloud</ButtonAddCloud>
+    <ButtonAddCloud>Add Cloud Folder</ButtonAddCloud>
     <InstallSamplesDesc>Let's install our sample projects. They will help you learn the basics of working with our software.</InstallSamplesDesc>
     <DoYouWantToInstallReports>Do you want to install templates of reports and dashboards?</DoYouWantToInstallReports>
   </Desktop>
@@ -654,7 +655,8 @@
     <DrillUp>Drill Up</DrillUp>
     <DuplicateField>Duplicate Field</DuplicateField>
     <EditExpression>Edit Expression</EditExpression>
-    <EmptyDashboardFooter>Drag &amp; drop component from ToolBox or data from Dictionary</EmptyDashboardFooter>
+    <EditField>Edit Field</EditField>
+	<EmptyDashboardFooter>Drag &amp; drop component from ToolBox or data from Dictionary</EmptyDashboardFooter>
     <EmptyDashboardHeader>Dashboard is empty</EmptyDashboardHeader>
     <FieldInteractions>Field Interactions</FieldInteractions>
     <FieldTypeRestrictionHint>Only '{0}' type field can be used!</FieldTypeRestrictionHint>
@@ -2300,7 +2302,8 @@
     <NotificationValueIsNotCorrect>This value is not correct for the type {0}</NotificationValueIsNotCorrect>
     <OutOfRange>Out of range ("{0}")!</OutOfRange>
     <ParsingCommandException>An exception of processing the command in the specified xml: {0}</ParsingCommandException>
-    <QuotaMaximumComputingCyclesCountExceeded>Maximum computing cycles count exceeded.</QuotaMaximumComputingCyclesCountExceeded>
+    <PleaseLogin>Please login using your Stimulsoft account credentials or register a new account before publishing report.</PleaseLogin>
+	<QuotaMaximumComputingCyclesCountExceeded>Maximum computing cycles count exceeded.</QuotaMaximumComputingCyclesCountExceeded>
     <QuotaMaximumDataRowsCountExceeded>Maximum data rows count in one data source exceeded.</QuotaMaximumDataRowsCountExceeded>
     <QuotaMaximumFileSizeExceeded>Maximum file size exceeded.</QuotaMaximumFileSizeExceeded>
     <QuotaMaximumItemsCountExceeded>Maximum items count exceeded.</QuotaMaximumItemsCountExceeded>
@@ -2351,6 +2354,7 @@
     <RetrievingInformation>Retrieving information...</RetrievingInformation>
     <Tags>Tags:</Tags>
     <Title>Data Adapter from NuGet</Title>
+    <DownloadDataAdapter>Download Data Adapter</DownloadDataAdapter>
     <ViewLicense>View License</ViewLicense>
   </NuGet>
   <Panels>
@@ -2800,6 +2804,9 @@
     <StiDisplayNameTypeFull>Full</StiDisplayNameTypeFull>
     <StiDisplayNameTypeNone>None</StiDisplayNameTypeNone>
     <StiDisplayNameTypeShort>Short</StiDisplayNameTypeShort>
+    <StiDesignerSpecificationAuto>Determine Automatically</StiDesignerSpecificationAuto>
+    <StiDesignerSpecificationDeveloper>I'm Developer</StiDesignerSpecificationDeveloper>
+    <StiDesignerSpecificationBICreator>I'm BI Creator</StiDesignerSpecificationBICreator>
     <StiDockStyleBottom>Bottom</StiDockStyleBottom>
     <StiDockStyleFill>Fill</StiDockStyleFill>
     <StiDockStyleLeft>Left</StiDockStyleLeft>
@@ -2935,6 +2942,7 @@
     <StiMarkerTypeStar6>Star 6</StiMarkerTypeStar6>
     <StiMarkerTypeStar7>Star 7</StiMarkerTypeStar7>
     <StiMarkerTypeStar8>Star 8</StiMarkerTypeStar8>
+    <StiMarkerTypeHalfCircle>Half Circle</StiMarkerTypeHalfCircle>
     <StiMarkerTypeTriangle>Triangle</StiMarkerTypeTriangle>
     <StiNestedFactorHigh>High</StiNestedFactorHigh>
     <StiNestedFactorLow>Low</StiNestedFactorLow>
@@ -3737,6 +3745,7 @@
     <MarkerColor>Marker Color</MarkerColor>
     <MarkerSize>Marker Size</MarkerSize>
     <MarkerType>Marker Type</MarkerType>
+    <MarkerAngle>Marker Angle</MarkerAngle>
     <MarkerVisible>Marker Visible</MarkerVisible>
     <MasterComponent>Master Component</MasterComponent>
     <MasterKeyDataColumn>Master Key Data Column</MasterKeyDataColumn>
