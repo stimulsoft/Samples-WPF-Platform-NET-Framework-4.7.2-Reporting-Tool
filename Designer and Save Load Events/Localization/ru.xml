@@ -466,8 +466,8 @@
     <TabItemEmbedCode>Код встраивания</TabItemEmbedCode>
     <TabItemQRCode>QR код</TabItemQRCode>
     <TabItemShare>Ссылка</TabItemShare>
+    <TermsOfService>Условия использования Stimulsoft</TermsOfService>
     <TermsOfUse>правилами</TermsOfUse>
-	<TermsOfService>Условия использования Stimulsoft</TermsOfService>
     <TextActivated>Активирована</TextActivated>
     <TextActivationDate>Дата активации</TextActivationDate>
     <TextDelete>Удаление</TextDelete>
@@ -641,8 +641,10 @@
     <DateFilters>Фильтры дат</DateFilters>
     <Dimension>Измерение</Dimension>
     <Dimensions>Измерения</Dimensions>
+    <DragDropData>Перетащите данные</DragDropData>
     <DragDropDataFromDictionary>Перетащите данные из Словаря данных</DragDropDataFromDictionary>
     <DrillDown>Детализация</DrillDown>
+    <DrillDownFiltered>Детализировать после фильтра</DrillDownFiltered>
     <DrillDownSelected>Детализация выделенных</DrillDownSelected>
     <DrillUp>Детализация на предыдущем уровне</DrillUp>
     <DuplicateField>Создать копию поля</DuplicateField>
@@ -654,6 +656,7 @@
     <FieldTypeRestrictionHint>Только поля указанного '{0}' типа могут быть использованы!</FieldTypeRestrictionHint>
     <FirstLastPoints>Первая / Последняя точки</FirstLastPoints>
     <FirstRowIndex>Индекс первой строки</FirstRowIndex>
+    <FullRowSelect>Выбирать всю строку</FullRowSelect>
     <HighLowPoints>Максимальная / Минимальная точки</HighLowPoints>
     <ImageNotSpecified>Изображение не выбрано</ImageNotSpecified>
     <Indicator>Индикатор</Indicator>
@@ -779,13 +782,13 @@
     <TextNotFound>Указанный текст не найден. Текст: {0}</TextNotFound>
   </DesignerFx>
   <Desktop>
-    <WhoAreYou>Кто Вы?</WhoAreYou>
     <ButtonAddCloud>Добавить папку из Stimulsoft Cloud</ButtonAddCloud>
     <ButtonAddFolder>Добавить папку</ButtonAddFolder>
     <ButtonCreateDashboard>Создать панель индикаторов</ButtonCreateDashboard>
     <ButtonCreateReport>Создать отчет</ButtonCreateReport>
     <DoYouWantToInstallReports>Вы хотите установить шаблоны отчетов и панелей индикаторов?</DoYouWantToInstallReports>
     <InstallSamplesDesc>Давайте установим наши примеры! Они помогут вам освоить работу с нашим продуктом.</InstallSamplesDesc>
+    <WhoAreYou>Кто Вы?</WhoAreYou>
   </Desktop>
   <Dialogs>
     <StiButtonControl>Кнопка</StiButtonControl>
@@ -842,6 +845,7 @@
     <titleReplace>Заменить</titleReplace>
     <ToggleAllOutlining>Переключить все сворачивание</ToggleAllOutlining>
     <ToggleOutliningExpansion>&amp;Переключить сворачивание</ToggleOutliningExpansion>
+    <TypeToSearch>Введите для поиска</TypeToSearch>
     <UseRegularExpressions>Регулярные Вы&amp;ражения</UseRegularExpressions>
   </Editor>
   <Errors>
@@ -1220,7 +1224,7 @@
     <OrderToolbars>Упорядочить панели инструментов</OrderToolbars>
     <Others>Другие</Others>
     <Pages>Страницы</Pages>
-    <Preview>Предварительный просмотр</Preview>
+    <Preview>Просмотр</Preview>
     <PropertyChange>Изменение свойства '{0}'</PropertyChange>
     <RTPreview>WinRT просмотр</RTPreview>
     <SetupToolbox>Настройка инструментария</SetupToolbox>
@@ -1412,6 +1416,7 @@
     <MessageTopBottomNotValid>Верхнее и нижнее значения неверны!</MessageTopBottomNotValid>
     <Minutes>{0} минут</Minutes>
     <SaveReportEvery>Сохранять отчет каждые</SaveReportEvery>
+    <ScaleMode>Режим масштабирования</ScaleMode>
     <SelectUILanguage>Выберите язык интерфейса</SelectUILanguage>
     <ShowDialogForms>Показывать диалоговые формы</ShowDialogForms>
     <ShowDimensionLines>Показывать размерные линии</ShowDimensionLines>
@@ -1871,7 +1876,7 @@
     <GridMode>Отображать сетку точками или линиями.</GridMode>
     <ImageAlignment>Разместить изображение в качестве </ImageAlignment>
     <ImageTransparency>Изменить прозрачность изображения.</ImageTransparency>
-    <Interaction>н</Interaction>
+    <Interaction>Изменить взаимодействие выделенных элементов.</Interaction>
     <LineSpacing>Выберите, какой промежуток будет между строками или между абзацами текста.</LineSpacing>
     <Link>Связать выделенные компоненты с контейнерами, в которых они находятся.</Link>
     <LoadImage>Загрузить изображение для водяного знака из файла.</LoadImage>
@@ -1930,7 +1935,7 @@
     <ShowBehind>Показывать текст водяного знака позади страницы.</ShowBehind>
     <ShowImageBehind>Показывать изображение водяного знака позади страницы.</ShowImageBehind>
     <ShowToolbox>Показать инструментарий.</ShowToolbox>
-    <StimulsoftHelp>Помощь Stimulsoft</StimulsoftHelp>
+    <StimulsoftHelp>Stimulsoft Помощь</StimulsoftHelp>
     <StyleDesigner>Запустить Редактор Стилей отчета.</StyleDesigner>
     <TellMeMore>Подробнее</TellMeMore>
     <Text>Текст водяного знака.</Text>
@@ -2386,7 +2391,7 @@
     <Download>Скачать</Download>
     <DownloadAll>Скачать все</DownloadAll>
     <DownloadAndInstall>Скачать и Установить</DownloadAndInstall>
-    <DownloadDataAdapter>Скачать адаптер данных</DownloadDataAdapter>
+    <DownloadDataAdapter>Получение адаптера данных</DownloadDataAdapter>
     <Downloads>Скачиваний:</Downloads>
     <IAccept>Я Согласен</IAccept>
     <IDecline>Я Отказываюсь</IDecline>
@@ -2853,6 +2858,8 @@
     <StiDateTimeTypeDate>Дата</StiDateTimeTypeDate>
     <StiDateTimeTypeDateAndTime>Дата и время</StiDateTimeTypeDateAndTime>
     <StiDateTimeTypeTime>Время</StiDateTimeTypeTime>
+    <StiDesignerScaleModeAutomaticScaling>Автомасштаб</StiDesignerScaleModeAutomaticScaling>
+    <StiDesignerScaleModeScaling100>100% масштаб</StiDesignerScaleModeScaling100>
     <StiDesignerSpecificationAuto>Определять автоматически</StiDesignerSpecificationAuto>
     <StiDesignerSpecificationBICreator>Я редактор BI</StiDesignerSpecificationBICreator>
     <StiDesignerSpecificationDeveloper>Я разработчик</StiDesignerSpecificationDeveloper>
@@ -2878,6 +2885,9 @@
     <StiEnumeratorTypeArabic>Арабские цифры</StiEnumeratorTypeArabic>
     <StiEnumeratorTypeNone>Нет</StiEnumeratorTypeNone>
     <StiEnumeratorTypeRoman>Римские цифры</StiEnumeratorTypeRoman>
+    <StiExtendedStyleBoolFalse>Ложь</StiExtendedStyleBoolFalse>
+    <StiExtendedStyleBoolFromStyle>Из стиля</StiExtendedStyleBoolFromStyle>
+    <StiExtendedStyleBoolTrue>Истина</StiExtendedStyleBoolTrue>
     <StiFilterConditionBeginningWith>начинается с</StiFilterConditionBeginningWith>
     <StiFilterConditionBetween>между</StiFilterConditionBetween>
     <StiFilterConditionContaining>содержит</StiFilterConditionContaining>
@@ -2911,6 +2921,16 @@
     <StiFilterItemValueOpen>Открывающее значение</StiFilterItemValueOpen>
     <StiFilterModeAnd>И</StiFilterModeAnd>
     <StiFilterModeOr>Или</StiFilterModeOr>
+    <StiFontIconGroupAccessibilityIcons>Доступность</StiFontIconGroupAccessibilityIcons>
+    <StiFontIconGroupBrandIcons>Марка</StiFontIconGroupBrandIcons>
+    <StiFontIconGroupDirectionalIcons>Указатели</StiFontIconGroupDirectionalIcons>
+    <StiFontIconGroupGenderIcons>Пол</StiFontIconGroupGenderIcons>
+    <StiFontIconGroupMedicalIcons>Медицина</StiFontIconGroupMedicalIcons>
+    <StiFontIconGroupPaymentIcons>Платежи</StiFontIconGroupPaymentIcons>
+    <StiFontIconGroupSpinnerIcons>Прогресс</StiFontIconGroupSpinnerIcons>
+    <StiFontIconGroupTransportationIcons>Транспорт</StiFontIconGroupTransportationIcons>
+    <StiFontIconGroupVideoPlayerIcons>Видео</StiFontIconGroupVideoPlayerIcons>
+    <StiFontIconGroupWebApplicationIcons>Приложение</StiFontIconGroupWebApplicationIcons>
     <StiFormStartModeOnEnd>В конце</StiFormStartModeOnEnd>
     <StiFormStartModeOnPreview>В предварительном просмотре</StiFormStartModeOnPreview>
     <StiFormStartModeOnStart>В начале</StiFormStartModeOnStart>
@@ -2929,6 +2949,11 @@
     <StiHorAlignmentCenter>По центру</StiHorAlignmentCenter>
     <StiHorAlignmentLeft>По левому краю</StiHorAlignmentLeft>
     <StiHorAlignmentRight>По правому краю</StiHorAlignmentRight>
+    <StiIconAlignmentBottom>Внизу</StiIconAlignmentBottom>
+    <StiIconAlignmentLeft>Слева</StiIconAlignmentLeft>
+    <StiIconAlignmentNone>Нет</StiIconAlignmentNone>
+    <StiIconAlignmentRight>Справа</StiIconAlignmentRight>
+    <StiIconAlignmentTop>Сверху</StiIconAlignmentTop>
     <StiImageProcessingDuplicatesTypeGlobalHide>Спрятать глобально</StiImageProcessingDuplicatesTypeGlobalHide>
     <StiImageProcessingDuplicatesTypeGlobalMerge>Соединить глобально</StiImageProcessingDuplicatesTypeGlobalMerge>
     <StiImageProcessingDuplicatesTypeGlobalRemoveImage>Удалить изображение глобально</StiImageProcessingDuplicatesTypeGlobalRemoveImage>
@@ -2988,6 +3013,7 @@
     <StiMarkerAlignmentLeft>Слева</StiMarkerAlignmentLeft>
     <StiMarkerAlignmentRight>Справа</StiMarkerAlignmentRight>
     <StiMarkerTypeCircle>Круг</StiMarkerTypeCircle>
+    <StiMarkerTypeHalfCircle>Полукруг</StiMarkerTypeHalfCircle>
     <StiMarkerTypeHexagon>Шестиугольник</StiMarkerTypeHexagon>
     <StiMarkerTypeRectangle>Прямоугольник</StiMarkerTypeRectangle>
     <StiMarkerTypeStar5>Звезда с 5 лучами</StiMarkerTypeStar5>
@@ -3094,6 +3120,8 @@
     <StiSeriesSortTypeArgument>Аргумент</StiSeriesSortTypeArgument>
     <StiSeriesSortTypeNone>Нет</StiSeriesSortTypeNone>
     <StiSeriesSortTypeValue>Значение</StiSeriesSortTypeValue>
+    <StiSeriesXAxisBottomXAxis>Нижняя X ось</StiSeriesXAxisBottomXAxis>
+    <StiSeriesXAxisTopXAxis>Верхняя X ось</StiSeriesXAxisTopXAxis>
     <StiSeriesYAxisLeftYAxis>Ось Y левая</StiSeriesYAxisLeftYAxis>
     <StiSeriesYAxisRightYAxis>Ось Y правая</StiSeriesYAxisRightYAxis>
     <StiShapeDirectionDown>Вниз</StiShapeDirectionDown>
@@ -3611,6 +3639,8 @@
     <FooterCanGrow>Итог может расти</FooterCanGrow>
     <FooterCanShrink>Итог может сжиматься</FooterCanShrink>
     <FooterColor>Цвет итога</FooterColor>
+    <FooterFont>Шрифт итога</FooterFont>
+    <FooterForeColor>Цвет текста итога</FooterForeColor>
     <FooterForeground>Цвет текста итога</FooterForeground>
     <FooterPrintAtBottom>Итог печатать внизу</FooterPrintAtBottom>
     <FooterPrintIfEmpty>Итог печатать, если нет данных</FooterPrintIfEmpty>
@@ -3680,6 +3710,7 @@
     <Hyperlink>Гиперссылка</Hyperlink>
     <HyperlinkDataColumn>Колонка данных гиперссылок</HyperlinkDataColumn>
     <Icon>Значок</Icon>
+    <IconAlignment>Выравнивание значка</IconAlignment>
     <IconSet>Набор значков</IconSet>
     <IconSetCondition>Набор значков</IconSetCondition>
     <Idents>Идентификаторы</Idents>
@@ -3757,6 +3788,7 @@
     <Length>Длина</Length>
     <LengthUnderLabels>Длина под подписью</LengthUnderLabels>
     <Lighting>Освещение</Lighting>
+    <LimitRows>Лимит строк</LimitRows>
     <Linear>Линейная</Linear>
     <LinearBarBorderBrush>Кисть границы линейной панели</LinearBarBorderBrush>
     <LinearBarBrush>Кисть линейной панели</LinearBarBrush>
@@ -3799,6 +3831,7 @@
     <Margins>Поля</Margins>
     <Marker>Маркер</Marker>
     <MarkerAlignment>Выравнивание маркера</MarkerAlignment>
+    <MarkerAngle>Угол маркера</MarkerAngle>
     <MarkerBorder>Граница маркера</MarkerBorder>
     <MarkerBrush>Кисть маркера</MarkerBrush>
     <MarkerColor>Цвет маркера</MarkerColor>
@@ -3940,8 +3973,10 @@
     <Range>Диапазон</Range>
     <RangeColorMode>Режим цвета диапозона</RangeColorMode>
     <RangeFrom>С</RangeFrom>
+    <RangeMode>Режим диапазона</RangeMode>
     <RangeScrollEnabled>Прокрутка диапазона</RangeScrollEnabled>
     <RangeTo>По</RangeTo>
+    <RangeType>Тип диапазона</RangeType>
     <Ratio>Коэффициент</Ratio>
     <RatioY>Коэффициент Y</RatioY>
     <ReadOnly>Только чтение</ReadOnly>
@@ -4022,6 +4057,7 @@
     <SeriesLabelsColor>Цвет подписей</SeriesLabelsColor>
     <SeriesLabelsLineColor>Цвет линии в подписи</SeriesLabelsLineColor>
     <SeriesLighting>Освещение рядов</SeriesLighting>
+    <SeriesShowBorder>Показывать границу серии</SeriesShowBorder>
     <SeriesShowShadow>Отображение тени рядов</SeriesShowShadow>
     <SeriesTitle>Заголовок серии</SeriesTitle>
     <Shadow>Тень</Shadow>
@@ -4130,6 +4166,7 @@
     <TagDataColumn>Колонка данных тегов</TagDataColumn>
     <TagValue>Значение Тега</TagValue>
     <Target>Цель</Target>
+    <TargetIcon>Иконка цели</TargetIcon>
     <Tension>Напряженность</Tension>
     <Text>Текст</Text>
     <TextAfter>Текст после</TextAfter>
@@ -4214,6 +4251,7 @@
     <ValueTypeSeparator>Тип сепаратора значений</ValueTypeSeparator>
     <Variable>Переменная</Variable>
     <Variables>Переменные</Variables>
+    <Variation>Вариация</Variation>
     <Version>Версия</Version>
     <VertAlignment>Вертикальное выравнивание</VertAlignment>
     <VertSpacing>Расстояние по вертикали</VertSpacing>
@@ -4385,7 +4423,7 @@
     <History>История</History>
     <Infographics>Инфографика</Infographics>
     <InfoMessage>{0} - {1} найдены.</InfoMessage>
-    <InformationMessages>Информационные сообщения</InformationMessages>
+    <InformationMessages>Информация</InformationMessages>
     <LabelAlias>Псевдоним:</LabelAlias>
     <LabelAuthor>Автор:</LabelAuthor>
     <LabelBackground>Фон:</LabelBackground>
@@ -4423,6 +4461,7 @@
     <NoIssues>Нет проблем</NoIssues>
     <NoNewVersions>Новые версии не обнаружены!</NoNewVersions>
     <NotAssigned>Не назначено</NotAssigned>
+    <Null>Пусто</Null>
     <Office2010Back>Назад</Office2010Back>
     <PageNofM>Страница {0} из {1}</PageNofM>
     <PreparingReport>Подготовка отчета</PreparingReport>
@@ -4435,7 +4474,7 @@
     <RangePage>Страницы</RangePage>
     <RangePages>номера</RangePages>
     <ReportChecker>Проверка отчетов</ReportChecker>
-    <ReportRenderingMessages>Сообщения построения отчета</ReportRenderingMessages>
+    <ReportRenderingMessages>Сообщения отчета</ReportRenderingMessages>
     <RestartDesigner>Вам необходимо перезапустить дизайнер отчетов.</RestartDesigner>
     <SaveReportPagesOrFormsFromReport>Сохранить отчет, страницу или форму отчета</SaveReportPagesOrFormsFromReport>
     <SavingReport>Сохранение отчета</SavingReport>
@@ -4713,7 +4752,7 @@
     <NoFunction>[Нет]</NoFunction>
     <OpenExistingReport>Открыть файл</OpenExistingReport>
     <OpenFrom>Открыть из {0}</OpenFrom>
-    <Preview>Предварительный просмотр</Preview>
+    <Preview>Просмотр</Preview>
     <Reset>&amp;Сбросить</Reset>
     <Results>Результаты</Results>
     <SelectColumns>Выбор колонок</SelectColumns>
