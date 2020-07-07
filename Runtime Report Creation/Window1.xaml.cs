@@ -35,9 +35,8 @@ namespace RuntimeBuildReport
             Stimulsoft.Report.Wpf.StiThemesHelper.LoadTheme(this);
             InitializeComponent();
 
-            dataSet1.ReadXmlSchema("..\\..\\Data\\Demo.xsd");
-            dataSet1.ReadXml("..\\..\\Data\\Demo.xml");
-
+            dataSet1.ReadXmlSchema("..\\Data\\Demo.xsd");
+            dataSet1.ReadXml("..\\Data\\Demo.xml");
             dataSet1.DataSetName = "Demo";
         }
 

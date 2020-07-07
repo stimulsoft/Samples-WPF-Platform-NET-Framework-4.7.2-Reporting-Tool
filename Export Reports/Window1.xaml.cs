@@ -19,10 +19,6 @@ namespace Export
     /// </summary>
     public partial class Window1 : Window
     {
-        private string path = string.Empty;
-
-        DataSet dataSet1 = new DataSet();
-
         public Window1()
         {
             // How to Activate
@@ -35,15 +31,11 @@ namespace Export
             InitializeComponent();
 
             lbReports.SelectedIndex = 0;
-
-            dataSet1.ReadXmlSchema("..\\..\\Data\\Demo.xsd");
-            dataSet1.ReadXml("..\\..\\Data\\Demo.xml");
         }
 
         private void buttonPreview_Click(object sender, RoutedEventArgs e)
         {
-            StiReport report = new StiReport();
-            report.RegData(dataSet1);
+            var report = new StiReport();
 
             report.Load("..\\" + ((ListBoxItem)lbReports.SelectedItem).Content as string + ".mrt");
             report.RenderWithWpf();
@@ -52,13 +44,12 @@ namespace Export
 
         private void buttonExport_Click(object sender, RoutedEventArgs e)
         {
-            StiReport report = new StiReport();
-            report.RegData(dataSet1);
+            var report = new StiReport();
 
             report.Load("..\\" + ((ListBoxItem)lbReports.SelectedItem).Content as string + ".mrt");
             report.RenderWithWpf(false);
 
-            string file = ((ListBoxItem)lbReports.SelectedItem).Content as string + ".";
+            var file = ((ListBoxItem)lbReports.SelectedItem).Content as string + ".";
 
             if (rbPdf.IsChecked.GetValueOrDefault())
             {

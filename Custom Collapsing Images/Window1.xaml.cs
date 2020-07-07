@@ -22,20 +22,13 @@ namespace CustomCollapsingImages
             StiOptions.Wpf.Viewer.CollapsingImages.UseCustomCollapsingImages = true;
             StiOptions.Wpf.Viewer.CollapsingImages.CollapsedImagePath = "pack://application:,,,/CustomCollapsingImages;component/Images/Collapsed.png";
             StiOptions.Wpf.Viewer.CollapsingImages.ExpandedImagePath = "pack://application:,,,/CustomCollapsingImages;component/Images/Expanded.png";
-
+            
             InitializeComponent();
-            StiReport report = new StiReport();            
 
-            DataSet ds = new DataSet();
-            ds.ReadXmlSchema("..\\..\\Data\\Demo.xsd");
-            ds.ReadXml("..\\..\\Data\\Demo.xml");
-            ds.DataSetName = "Demo";
-
+            var report = new StiReport();
             report.Load("..\\DrillDownGroupWithCollapsing.mrt");
-            report.RegData(ds);
-
-            report.Compile();
             report.Render(false);
+
             viewer.Report = report;
         }
 

@@ -33,8 +33,8 @@ namespace Run_Designer_V2
 
         private void buttonRunDesigner_Click(object sender, RoutedEventArgs e)
         {
-            StiReport report = new StiReport();
-            report.Load("..\\..\\Variables.mrt");
+            var report = new StiReport();
+            report.Load("..\\..\\TwoSimpleLists.mrt");
 
             report.DesignV2WithWpf();
         }

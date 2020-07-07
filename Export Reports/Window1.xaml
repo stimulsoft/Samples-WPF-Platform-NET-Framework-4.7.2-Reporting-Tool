@@ -18,7 +18,7 @@
                 <ListBox Margin="4" Name="lbReports">
                     <ListBoxItem>SimpleList</ListBoxItem>
                     <ListBoxItem>SimpleGroup</ListBoxItem>
-                    <ListBoxItem>Master-Detail</ListBoxItem>
+                    <ListBoxItem>MasterDetail</ListBoxItem>
                     <ListBoxItem>Anchors</ListBoxItem>
                     <ListBoxItem>MultiColumnList</ListBoxItem>
                 </ListBox>
