@@ -27,8 +27,6 @@ Stimulsoft Reports.Wpf is a reporting tool that is developed for Windows Present
 
 You can try the [Live Demo](http://demo.stimulsoft.com/#Net)
 
-Also you can install and run the [WPF Demo](https://www.stimulsoft.com/en/products/reports-wpf-demo)
-
 Read more about [Stimulsoft Reports.Wpf](https://www.stimulsoft.com/en/products/reports-wpf)
 
 [Free Download](https://www.stimulsoft.com/en/downloads)
