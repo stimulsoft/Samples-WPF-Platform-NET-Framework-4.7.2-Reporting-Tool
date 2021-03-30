@@ -1,7 +1,8 @@
-﻿<Application x:Class="BusinessObjects.App"
-    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    StartupUri="Window1.xaml">
+﻿<Application x:Class="Using_Business_Objects.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Using_Business_Objects"
+             StartupUri="MainWindow.xaml">
     <Application.Resources>
          
     </Application.Resources>

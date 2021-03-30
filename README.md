@@ -4,16 +4,15 @@
 
 # Overview
 This repository has some examples (Visual Studio Projects) each in different folders:
-* Custom Collapsing Images
-* Custom Component
-* Designer and Save Load Events
-* Export Reports
-* Run Designer V2
+* Connect to Data from the Code
+* Edit Report in the Designer
+* Export and Print Report from Code
+* Localization of the User Interface
 * Runtime Report Creation
+* Show Report in the Viewer
 * Using Business Objects
 * Using Linq in Reports
 * Using Report Variables
-* Work with Report Components
 
 They are all combined in a Visual Studio solution (.sln-file).
 

@@ -1,0 +1,15 @@
+﻿<Window x:Class="Localization_of_the_User_Interface.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Localization_of_the_User_Interface"
+        mc:Ignorable="d"
+        Title="Localization of the User Interface" Height="300" Width="500" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize">
+    <Grid>
+        <Label Content="Interface Localization:" HorizontalAlignment="Center" Margin="0,55,0,0" Padding="0,5" VerticalAlignment="Top" Width="190"/>
+        <ComboBox Name="ComboBoxLocalizations" HorizontalAlignment="Center" Margin="0,81,0,0" VerticalAlignment="Top" Width="190"/>
+        <Button Content="Show Report" HorizontalAlignment="Center" Padding="10,5" VerticalAlignment="Top" Width="190" Click="ButtonShow_Click" Margin="0,127,0,0"/>
+        <Button Content="Design Report" HorizontalAlignment="Center" Padding="10,5" VerticalAlignment="Top" Width="190" Click="ButtonDesign_Click" Margin="0,160,0,0"/>
+    </Grid>
+</Window>
