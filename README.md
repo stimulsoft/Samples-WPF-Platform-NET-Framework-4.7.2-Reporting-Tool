@@ -16,8 +16,6 @@ This repository has some examples (Visual Studio Projects) each in different fol
 
 They are all combined in a Visual Studio solution (.sln-file).
 
-The **Data** folder has sample of data files (NWIND.MDB, Demo.xml and Demo.xsd) required for building reports.
-
 # Running samples
 In order to start simply open the Visual Studio solution file in the IDE Visual Studio and run the required project as Startup Project. The required libraries will be automatically downloaded from NuGet repository.
 

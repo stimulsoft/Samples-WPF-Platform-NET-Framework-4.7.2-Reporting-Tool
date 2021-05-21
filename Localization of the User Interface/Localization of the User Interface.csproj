@@ -34,41 +34,47 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Stimulsoft.Base, Version=2021.2.2.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Reports.Engine.2021.2.2\lib\net45\Stimulsoft.Base.dll</HintPath>
+    <Reference Include="LibExcel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Engine.2021.3.1\lib\net45\LibExcel.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Client.Designer, Version=2021.2.2.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Reports.Wpf.2021.2.2\lib\net45\Stimulsoft.Client.Designer.dll</HintPath>
+    <Reference Include="Stimulsoft.Base, Version=2021.3.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Engine.2021.3.1\lib\net45\Stimulsoft.Base.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Data, Version=2021.2.2.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Reports.Engine.2021.2.2\lib\net45\Stimulsoft.Data.dll</HintPath>
+    <Reference Include="Stimulsoft.Client.Designer, Version=2021.3.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Wpf.2021.3.1\lib\net45\Stimulsoft.Client.Designer.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Database.Wpf, Version=2021.2.2.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Reports.Wpf.2021.2.2\lib\net45\Stimulsoft.Database.Wpf.dll</HintPath>
+    <Reference Include="Stimulsoft.Data, Version=2021.3.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Engine.2021.3.1\lib\net45\Stimulsoft.Data.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Editor.Wpf, Version=2021.2.2.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Reports.Wpf.2021.2.2\lib\net45\Stimulsoft.Editor.Wpf.dll</HintPath>
+    <Reference Include="Stimulsoft.Database.Wpf, Version=2021.3.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Wpf.2021.3.1\lib\net45\Stimulsoft.Database.Wpf.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Map, Version=2021.2.2.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Reports.Engine.2021.2.2\lib\net45\Stimulsoft.Map.dll</HintPath>
+    <Reference Include="Stimulsoft.Editor.Wpf, Version=2021.3.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Wpf.2021.3.1\lib\net45\Stimulsoft.Editor.Wpf.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.MathFX, Version=2021.2.2.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Reports.Engine.2021.2.2\lib\net45\Stimulsoft.MathFX.dll</HintPath>
+    <Reference Include="Stimulsoft.Map, Version=2021.3.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Engine.2021.3.1\lib\net45\Stimulsoft.Map.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Report, Version=2021.2.2.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Reports.Engine.2021.2.2\lib\net45\Stimulsoft.Report.dll</HintPath>
+    <Reference Include="Stimulsoft.MathFX, Version=2021.3.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Engine.2021.3.1\lib\net45\Stimulsoft.MathFX.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Report.Check, Version=2021.2.2.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Reports.Engine.2021.2.2\lib\net45\Stimulsoft.Report.Check.dll</HintPath>
+    <Reference Include="Stimulsoft.Report, Version=2021.3.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Engine.2021.3.1\lib\net45\Stimulsoft.Report.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Report.Helper, Version=2021.2.2.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Reports.Engine.2021.2.2\lib\net45\Stimulsoft.Report.Helper.dll</HintPath>
+    <Reference Include="Stimulsoft.Report.Check, Version=2021.3.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Engine.2021.3.1\lib\net45\Stimulsoft.Report.Check.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Report.Wpf, Version=2021.2.2.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Reports.Wpf.2021.2.2\lib\net45\Stimulsoft.Report.Wpf.dll</HintPath>
+    <Reference Include="Stimulsoft.Report.Helper, Version=2021.3.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Engine.2021.3.1\lib\net45\Stimulsoft.Report.Helper.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Report.WpfDesign, Version=2021.2.2.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Reports.Wpf.2021.2.2\lib\net45\Stimulsoft.Report.WpfDesign.dll</HintPath>
+    <Reference Include="Stimulsoft.Report.Wpf, Version=2021.3.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Wpf.2021.3.1\lib\net45\Stimulsoft.Report.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.Report.WpfDesign, Version=2021.3.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Wpf.2021.3.1\lib\net45\Stimulsoft.Report.WpfDesign.dll</HintPath>
+    </Reference>
+    <Reference Include="Svg, Version=2.4.3.29446, Culture=neutral, PublicKeyToken=12a0bac221edeae2, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Engine.2021.3.1\lib\net45\Svg.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -134,194 +140,118 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Localization\zh-CHT.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    <Resource Include="Localization\zh-CHT.xml" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Localization\zh-CHS.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    <Resource Include="Localization\zh-CHS.xml" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Localization\vi.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    <Resource Include="Localization\vi.xml" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Localization\uk.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    <Resource Include="Localization\uk.xml" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Localization\tr.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    <Resource Include="Localization\tr.xml" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Localization\sv.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    <Resource Include="Localization\sv.xml" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Localization\sr.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    <Resource Include="Localization\sr.xml" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Localization\sk.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    <Resource Include="Localization\sk.xml" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Localization\ru.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    <Resource Include="Localization\ru.xml" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Localization\ro.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    <Resource Include="Localization\ro.xml" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Localization\pt.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    <Resource Include="Localization\pt.xml" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Localization\pt-BR.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    <Resource Include="Localization\pt-BR.xml" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Localization\pl.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    <Resource Include="Localization\pl.xml" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Localization\nl.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    <Resource Include="Localization\nl.xml" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Localization\nb-NO.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    <Resource Include="Localization\nb-NO.xml" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Localization\lt.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    <Resource Include="Localization\lt.xml" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Localization\ko.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    <Resource Include="Localization\ko.xml" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Localization\ka.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    <Resource Include="Localization\ka.xml" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Localization\ja.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    <Resource Include="Localization\ja.xml" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Localization\it.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    <Resource Include="Localization\it.xml" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Localization\id.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    <Resource Include="Localization\id.xml" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Localization\hu.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    <Resource Include="Localization\hu.xml" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Localization\hr.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    <Resource Include="Localization\hr.xml" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Localization\gl-ES.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    <Resource Include="Localization\gl-ES.xml" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Localization\fr.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    <Resource Include="Localization\fr.xml" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Localization\fa.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    <Resource Include="Localization\fa.xml" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Localization\eu-ES.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    <Resource Include="Localization\eu-ES.xml" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Localization\es.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    <Resource Include="Localization\es.xml" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Localization\en.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    <Resource Include="Localization\en.xml" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Localization\en-GB.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    <Resource Include="Localization\en-GB.xml" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Localization\el-GR.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    <Resource Include="Localization\el-GR.xml" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Localization\de.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    <Resource Include="Localization\de.xml" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Localization\cs.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    <Resource Include="Localization\cs.xml" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Localization\ca-ES.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    <Resource Include="Localization\ca-ES.xml" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Localization\bh.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    <Resource Include="Localization\bh.xml" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Localization\bg.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    <Resource Include="Localization\bg.xml" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Localization\be.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    <Resource Include="Localization\be.xml" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Localization\ar.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    <Resource Include="Localization\ar.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

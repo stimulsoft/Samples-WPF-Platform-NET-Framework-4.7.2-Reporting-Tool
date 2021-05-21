@@ -1,10 +1,8 @@
 ﻿using Stimulsoft.Report;
 using System;
-using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 
@@ -24,7 +22,7 @@ namespace Localization_of_the_User_Interface
 
             InitializeComponent();
 
-            foreach (var fileName in Directory.GetFiles(@"Localization"))
+            foreach (var fileName in Directory.GetFiles(@"..\..\Localization"))
             {
                 var label = new Label();
                 label.Padding = new Thickness(0, 2, 0, 2);
