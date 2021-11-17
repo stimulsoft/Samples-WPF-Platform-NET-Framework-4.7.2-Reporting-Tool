@@ -1,0 +1,13 @@
+﻿<Window x:Class="Connecting_to_Data_from_Code.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Connecting_to_Data_from_Code"
+        mc:Ignorable="d"
+        Title="Connecting to Data from Code" Height="300" Width="500" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize">
+    <Grid>
+        <Button Content="Register XML Data" HorizontalAlignment="Center" Margin="0,90,0,0" Padding="10,5" VerticalAlignment="Top" Width="190" Click="ButtonXML_Click"/>
+        <Button Content="Register JSON Data" HorizontalAlignment="Center" Padding="10,5" VerticalAlignment="Top" Width="190" Click="ButtonJSON_Click" Margin="0,123,0,0"/>
+    </Grid>
+</Window>
