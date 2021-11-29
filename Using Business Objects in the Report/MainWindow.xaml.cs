@@ -1,4 +1,4 @@
-﻿using BusinessObjects;
+﻿using Using_Business_Objects_in_the_Report;
 using Stimulsoft.Report;
 using System;
 using System.Collections.Generic;

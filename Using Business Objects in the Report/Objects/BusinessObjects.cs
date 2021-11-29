@@ -4,7 +4,7 @@ using System.Reflection;
 using System.ComponentModel;
 using System.Collections;
 
-namespace BusinessObjects
+namespace Using_Business_Objects_in_the_Report
 {
 	public class Company
 	{
