@@ -7,6 +7,7 @@ This repository has some examples (Visual Studio Projects) each in different fol
 * Connecting to Data from Code
 * Editing a Report Template in the Designer
 * Exporting a Report from Code
+* Printing a Report from Code
 * Localizing the User Interface
 * Creating Report at Runtime
 * Showing a Report in the Viewer
