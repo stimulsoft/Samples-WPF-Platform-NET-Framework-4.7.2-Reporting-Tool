@@ -25,15 +25,6 @@ namespace Exporting_a_Report_from_Code
             InitializeComponent();
         }
 
-        private void ButtonPrint_Click(object sender, RoutedEventArgs e)
-        {
-            var report = new StiReport();
-            report.Load(@"Reports\TwoSimpleLists.mrt");
-            report.PrintWithWpf();
-
-            MessageBox.Show("The print action is complete.", "Print Report");
-        }
-
         private void ButtonExport_Click(object sender, RoutedEventArgs e)
         {
             var report = new StiReport();

@@ -7,10 +7,9 @@
         mc:Ignorable="d"
         Title="Exporting a Report from Code" Height="300" Width="500" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize">
     <Grid>
-        <Button Content="Print Report" HorizontalAlignment="Left" Margin="147,71,0,0" Padding="10,5" VerticalAlignment="Top" Width="190" Click="ButtonPrint_Click"/>
-        <Button Content="Export Report" HorizontalAlignment="Left" Margin="147,124,0,0" Padding="10,5" VerticalAlignment="Top" Width="190" Click="ButtonExport_Click"/>
-        <Label Content="Format:" HorizontalAlignment="Left" Margin="147,157,0,0" Padding="0,3" VerticalAlignment="Top" Height="22"/>
-        <ComboBox Name="ComboBoxFormat" HorizontalAlignment="Left" Margin="207,157,0,0" VerticalAlignment="Top" Width="130" SelectedIndex="0">
+        <Button Content="Export Report" HorizontalAlignment="Center" Margin="0,109,0,0" Padding="10,5" VerticalAlignment="Top" Width="190" Click="ButtonExport_Click"/>
+        <Label Content="Format:" HorizontalAlignment="Left" Margin="156,142,0,0" Padding="0,3" VerticalAlignment="Top" Height="22"/>
+        <ComboBox Name="ComboBoxFormat" HorizontalAlignment="Left" Margin="216,142,0,0" VerticalAlignment="Top" Width="130" SelectedIndex="0">
             <Label Content="PDF" />
             <Label Content="Word"/>
             <Label Content="Excel"/>

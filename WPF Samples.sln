@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30225.117
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Connecting to Data from Code", "Connecting to Data from Code\Connecting to Data from Code.csproj", "{FDB32E03-91CE-4AB6-B40A-5AF5F237702B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Editing a Report Template in the Designer", "Editing a Report Template in the Designer\Editing a Report Template in the Designer.csproj", "{7F9FD4C8-45BE-4668-B82E-AC00D6C1D160}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exporting a Report from Code", "Exporting a Report from Code\Exporting a Report from Code.csproj", "{6C6D65FB-678E-4480-9197-7AD656C34872}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Printing a Report from Code", "Printing a Report from Code\Printing a Report from Code.csproj", "{DEE434A1-2BD8-4475-B85A-E88AA5262AAE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Localizing the User Interface", "Localizing the User Interface\Localizing the User Interface.csproj", "{D17DA714-49ED-4D4A-9571-8C3849A48DCD}"
 EndProject
@@ -39,6 +41,10 @@ Global
 		{6C6D65FB-678E-4480-9197-7AD656C34872}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C6D65FB-678E-4480-9197-7AD656C34872}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C6D65FB-678E-4480-9197-7AD656C34872}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEE434A1-2BD8-4475-B85A-E88AA5262AAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEE434A1-2BD8-4475-B85A-E88AA5262AAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEE434A1-2BD8-4475-B85A-E88AA5262AAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEE434A1-2BD8-4475-B85A-E88AA5262AAE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D17DA714-49ED-4D4A-9571-8C3849A48DCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D17DA714-49ED-4D4A-9571-8C3849A48DCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D17DA714-49ED-4D4A-9571-8C3849A48DCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
