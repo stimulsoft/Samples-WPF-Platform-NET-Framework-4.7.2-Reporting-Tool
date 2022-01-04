@@ -4,12 +4,13 @@
 
 # Overview
 This repository has some examples (Visual Studio Projects) each in different folders:
+* Adding a Font to the Resource
 * Connecting to Data from Code
+* Creating Report at Runtime
 * Editing a Report Template in the Designer
 * Exporting a Report from Code
-* Printing a Report from Code
 * Localizing the User Interface
-* Creating Report at Runtime
+* Printing a Report from Code
 * Showing a Report in the Viewer
 * Using Business Objects in the Report
 * Using Linq in Reports
