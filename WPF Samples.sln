@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Using Report Variables in C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adding a Font to the Resource", "Adding a Font to the Resource\Adding a Font to the Resource.csproj", "{005498EC-DFED-4AC1-8676-2CD1145FD634}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Using a Custom Data Adapter", "Using a Custom Data Adapter\Using a Custom Data Adapter.csproj", "{B6699C6C-91CA-4BEC-A5C1-F98D9A83DEAD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -121,6 +123,14 @@ Global
 		{005498EC-DFED-4AC1-8676-2CD1145FD634}.Release|Any CPU.Build.0 = Release|Any CPU
 		{005498EC-DFED-4AC1-8676-2CD1145FD634}.Release|x86.ActiveCfg = Release|Win32
 		{005498EC-DFED-4AC1-8676-2CD1145FD634}.Release|x86.Build.0 = Release|Win32
+		{B6699C6C-91CA-4BEC-A5C1-F98D9A83DEAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6699C6C-91CA-4BEC-A5C1-F98D9A83DEAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6699C6C-91CA-4BEC-A5C1-F98D9A83DEAD}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B6699C6C-91CA-4BEC-A5C1-F98D9A83DEAD}.Debug|x86.Build.0 = Debug|Any CPU
+		{B6699C6C-91CA-4BEC-A5C1-F98D9A83DEAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6699C6C-91CA-4BEC-A5C1-F98D9A83DEAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6699C6C-91CA-4BEC-A5C1-F98D9A83DEAD}.Release|x86.ActiveCfg = Release|Any CPU
+		{B6699C6C-91CA-4BEC-A5C1-F98D9A83DEAD}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

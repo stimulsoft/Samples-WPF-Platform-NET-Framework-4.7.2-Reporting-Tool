@@ -13,6 +13,7 @@ This repository has some examples (Visual Studio Projects) each in different fol
 * Printing a Report from Code
 * Showing a Report in the Viewer
 * Using Business Objects in the Report
+* Using a Custom Data Adapter
 * Using Linq in Reports
 * Using Report Variables in Code
 

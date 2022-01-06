@@ -1,0 +1,13 @@
+﻿<Window x:Class="Using_a_Custom_Data_Adapter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Using_a_Custom_Data_Adapter"
+        mc:Ignorable="d"
+        Title="Using a Custom Data Adapter" Height="250" Width="400" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize">
+    <Grid>
+        <Button Content="Edit Report" HorizontalAlignment="Left" Margin="97,70,0,0" Padding="10,5" VerticalAlignment="Top" Click="ButtonEdit_Click" Width="190"/>
+        <Button Content="Close" HorizontalAlignment="Left" Margin="97,110,0,0" Padding="10,5" VerticalAlignment="Top" Width="190" Click="ButtonClose_Click"/>
+    </Grid>
+</Window>
