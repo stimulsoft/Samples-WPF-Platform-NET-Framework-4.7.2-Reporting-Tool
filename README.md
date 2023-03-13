@@ -1,6 +1,6 @@
 # WPF C# samples for Stimulsoft Reports.WPF
 
-#### This repository contains the source code of the examples of usage Stimulsoft Reports.WPF reporting tool in the Windows Presentation Foundation applications, using C# code and WPF components.
+#### This repository contains the source code of the examples of usage Stimulsoft Reports.WPF reporting tool in the Windows Presentation Foundation applications, using C# code and WPF components. The product supports .NET Framework 4.5.2, 4.6, 4.7, and 4.8 versions.
 
 # Overview
 This repository has some examples (Visual Studio Projects) each in different folders:
