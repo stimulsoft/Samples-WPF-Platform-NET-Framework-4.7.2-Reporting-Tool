@@ -1,0 +1,47 @@
+﻿<Window x:Class="Changing_the_Viewer_and_Designer_Theme.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="Changing the Viewer and Designer Theme" 
+        Width="400" Height="230" 
+        WindowStartupLocation="CenterScreen" 
+        ResizeMode="CanMinimize">
+    <Grid Margin="12">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="12"/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Margin="0,4" VerticalAlignment="Center" Text="Appearance"/>
+        <ComboBox x:Name="comboBoxAppearance" Grid.Column="2" Width="200" HorizontalAlignment="Left" Margin="0,6" SelectionChanged="ComboBoxAppearance_SelectionChanged">
+            <ComboBoxItem Content="Auto"/>
+            <ComboBoxItem Content="Light"/>
+            <ComboBoxItem Content="Dark"/>
+        </ComboBox>
+
+        <TextBlock Grid.Row="1" Margin="0,4" VerticalAlignment="Center" Text="Accent Color"/>
+        <ComboBox x:Name="comboBoxAccentColor" Grid.Row="1" Grid.Column="2" Width="200" HorizontalAlignment="Left" Margin="0,6" SelectionChanged="ComboBoxAccentColor_SelectionChanged">
+            <ComboBoxItem Content="Auto"/>
+            <ComboBoxItem Content="Blue"/>
+            <ComboBoxItem Content="Violet"/>
+            <ComboBoxItem Content="Carmine"/>
+            <ComboBoxItem Content="Teal"/>
+            <ComboBoxItem Content="Green"/>
+            <ComboBoxItem Content="Orange"/>
+        </ComboBox>
+
+        <Button x:Name="buttonShowDesigner" Grid.Row="2" Grid.Column="2" Width="100" Height="24" HorizontalAlignment="Right" Margin="0,6" Content="Show Designer" Click="ButtonShowDesigner_Click"/>
+        <Button x:Name="buttonShowViewer" Grid.Row="3" Grid.Column="2" Width="100" Height="24" HorizontalAlignment="Right" Margin="0,6" Content="Show Viewer" Click="ButtonShowViewer_Click"/>
+    </Grid>
+</Window>
