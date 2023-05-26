@@ -1,0 +1,21 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Exporting_a_Report_from_Code"
+        xmlns:PropertyGrid="clr-namespace:Stimulsoft.Client.Designer.PropertyGrid;assembly=Stimulsoft.Client.Designer" x:Class="Exporting_a_Report_from_Code.MainWindow"
+        mc:Ignorable="d"
+        Title="Exporting a Report from Code" Height="300" Width="500" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize">
+    <Grid>
+        <Button Content="Export Report" HorizontalAlignment="Left" Margin="151,87,0,0" Padding="10,5" VerticalAlignment="Top" Width="190" Click="ButtonExport_Click"/>
+        <Label Content="Format:" HorizontalAlignment="Left" Margin="151,120,0,0" Padding="0,3" VerticalAlignment="Top" Height="22"/>
+        <ComboBox Name="ComboBoxFormat" HorizontalAlignment="Left" Margin="211,120,0,0" VerticalAlignment="Top" Width="130" SelectedIndex="0">
+            <Label Content="PDF" />
+            <Label Content="Word"/>
+            <Label Content="Excel"/>
+            <Label Content="Text"/>
+            <Label Content="Image"/>
+        </ComboBox>
+    </Grid>
+</Window>

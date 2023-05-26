@@ -1,0 +1,13 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Exporting_a_Report_from_Code"
+        xmlns:PropertyGrid="clr-namespace:Stimulsoft.Client.Designer.PropertyGrid;assembly=Stimulsoft.Client.Designer" x:Class="Exporting_a_Report_from_Code.MainWindow"
+        mc:Ignorable="d"
+        Title="Printing a Report from Code" Height="300" Width="500" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize">
+    <Grid>
+        <Button Content="Print Report" HorizontalAlignment="Center" Margin="0,114,0,0" Padding="10,5" VerticalAlignment="Top" Width="190" Click="ButtonPrint_Click"/>
+    </Grid>
+</Window>
