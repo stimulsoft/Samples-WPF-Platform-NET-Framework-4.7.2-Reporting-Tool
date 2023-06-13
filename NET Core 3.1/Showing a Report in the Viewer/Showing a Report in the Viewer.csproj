@@ -6,7 +6,7 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Stimulsoft.Reports.Wpf" Version="2023.2.6" />
+    <PackageReference Include="Stimulsoft.Reports.Wpf" Version="2023.2.7" />
   </ItemGroup>
   <ItemGroup>
     <None Update="Reports\SimpleList.mrt">
