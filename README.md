@@ -3,7 +3,7 @@
 #### This repository contains the source code of the examples of usage Stimulsoft Reports.WPF report builder in the Windows Presentation Foundation apps, using C# code and WPF embedded components. The report generator and examples are fully compatible with .NET Framework 4.5.2, 4.6, 4.7, 4.8 versions, and .NET Core 3.1, .NET 5.0, .NET 6.0, .NET 7.0 platforms.
 
 ## Overview
-This repository contains a set of examples (Visual Studio projects), each in different folders:
+This repository has a set of examples (Visual Studio projects), each in different folders:
 * [Adding a Font to the Resource](https://github.com/stimulsoft/Samples-Reports.WPF/tree/master/NET%206.0/Adding%20a%20Font%20to%20the%20Resource)
 * [Changing the Viewer and Designer Theme](https://github.com/stimulsoft/Samples-Reports.WPF/tree/master/NET%20Framework%204.7.2/Changing%20the%20Viewer%20and%20Designer%20Theme)
 * [Connecting to Data from Code](https://github.com/stimulsoft/Samples-Reports.WPF/tree/master/NET%206.0/Connecting%20to%20Data%20from%20Code)
@@ -35,5 +35,5 @@ Stimulsoft Reports.WPF is a powerful and flexible report generator for the Windo
 * [Product Page](https://www.stimulsoft.com/en/products/reports-wpf)
 * [Free Download](https://www.stimulsoft.com/en/downloads)
 * [NuGet](https://www.nuget.org/packages/Stimulsoft.Reports.Wpf)
-* [Documentation](https://www.stimulsoft.com/en/documentation/online/programming-manual/index.html?reports_wpf.htm)
+* [Documentation](https://www.stimulsoft.com/en/documentation/online/programming-manual/reports_wpf.htm)
 * [License](LICENSE.md)
