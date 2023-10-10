@@ -6,7 +6,7 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Stimulsoft.Reports.Wpf" Version="2023.3.4" />
+    <PackageReference Include="Stimulsoft.Reports.Wpf" Version="2023.4.1" />
   </ItemGroup>
   <ItemGroup>
     <Compile Update="Data\Demo.Designer.cs">
