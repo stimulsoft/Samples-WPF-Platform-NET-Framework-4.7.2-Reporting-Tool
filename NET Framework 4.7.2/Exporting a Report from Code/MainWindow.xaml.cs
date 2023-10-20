@@ -1,4 +1,5 @@
-﻿using Stimulsoft.Report;
+﻿using Microsoft.Win32;
+using Stimulsoft.Report;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -15,6 +16,7 @@ namespace Exporting_a_Report_from_Code
     /// </summary>
     public partial class MainWindow : Window
     {
+        private SaveFileDialog saveFileDialog = new SaveFileDialog();
         public MainWindow()
         {
             // How to Activate
@@ -29,40 +31,54 @@ namespace Exporting_a_Report_from_Code
         {
             var report = new StiReport();
             report.Load(@"Reports\TwoSimpleLists.mrt");
-            report.Render();
+            report.Render(false);
 
             var stream = new MemoryStream();
             switch (((Label)ComboBoxFormat.SelectedItem).Content)
             {
                 case "PDF":
                     report.ExportDocument(StiExportFormat.Pdf, stream);
+                    saveFileDialog.DefaultExt = ".pdf";
                     break;
 
                 case "Word":
                     report.ExportDocument(StiExportFormat.Word2007, stream);
+                    saveFileDialog.DefaultExt = ".docx";
                     break;
 
                 case "Excel":
                     report.ExportDocument(StiExportFormat.Excel2007, stream);
+                    saveFileDialog.DefaultExt = ".xlsx";
                     break;
 
                 case "Text":
                     report.ExportDocument(StiExportFormat.Text, stream);
+                    saveFileDialog.DefaultExt = ".txt";
                     break;
 
                 case "Image":
                     report.ExportDocument(StiExportFormat.ImagePng, stream);
+                    saveFileDialog.DefaultExt = ".png";
                     break;
             }
 
-            // Save to Local Storage
-            /*using (var fileStream = File.Create(@"d:\TwoSimpleLists.pdf"))
+            saveFileDialog.FileName = report.ReportName;
+            var ExportCompleted = false;
+            if (saveFileDialog.ShowDialog() == true)
             {
-                stream.Seek(0, SeekOrigin.Begin);
-                stream.CopyTo(fileStream);
-            }*/
+                // Save to Local Storage
+                using (var fileStream = File.Create(saveFileDialog.FileName))
+                {
+                    stream.Seek(0, SeekOrigin.Begin);
+                    stream.CopyTo(fileStream);
+                    ExportCompleted = true;
+                }
+            }
 
-            MessageBox.Show("The export action is complete.", "Export Report");
+            if(ExportCompleted)
+            {
+                MessageBox.Show("The export action is complete.", "Export Report");
+            }
         }
     }
 }
